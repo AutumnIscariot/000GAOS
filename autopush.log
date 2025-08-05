@@ -2037,11 +2037,22 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 32d8fc08369df319795eb776909a846121b67ec0 but expected 2c8bae741091d5ff9d1055afe738df81291ab1a3)
-error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
-Setting up watches.  Beware: since -r was given, this may take a while!
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 7a4198a781f1b5f9b1c4d67867d6c7ff87eab22c but expected 32d8fc08369df319795eb776909a846121b67ec0)
+error: failed to push some refs to 'https://giTo https://github.com/autumniscariot/Setting up watches.  Beware: since -r was giveSetting up watches.  BewarWatches established.
+./ MODIFY autopush.log
+!
 Watches established.
 ./ MODIFY autopush.log
