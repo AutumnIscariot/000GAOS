@@ -3491,3 +3491,12 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/d5/ CREATE tmp_obj_6D3oQn
+[main 03c51f0] Auto-update from Vault
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   d0fc8e6..03c51f0  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
