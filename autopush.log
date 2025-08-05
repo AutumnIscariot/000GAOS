@@ -3879,9 +3879,9 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
- tmp_obj_wgTLRp
-[main 68d47b7] Auto-update from Vault
- 1 file changed, 0 insertions(+), 0 deletions(-)
+[main b008d56] Auto-update from Vault
+ 1 file changed, 28 insertions(+), 24 deletions(-)
+ deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
@@ -7584,16 +7584,13 @@ Watches established.
  1 file changed, 12 insertions(+), 13 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
--r was given, this may take a while!
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at dd2643ff26feff5dc7f63d7c8e451384d7b2d3cc but expected 308673570807d4e0c1519b48e264db99d3db2c91)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
+move the file manually to continue.
 [main 9131298] Auto-update from Vault
  1 file changed, 119 insertions(+), 20 deletions(-)
 remote: This repository moved. Please use the new location:        
@@ -7979,3 +7976,8 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
