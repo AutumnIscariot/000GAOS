@@ -3741,9 +3741,9 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
+[main fabec96] Auto-update from Vault
+ 1 file changed, 13 insertions(+), 3 deletions(-)
+push.log
 fatal: confused by unstable object source data for 6c28bffcf01bf1169b7b813c8ed7accb930dbfbd
 On branch main
 Your branch is ahead of 'origin/main' by 1 commit.
@@ -3898,3 +3898,9 @@ Watches established.
  1 file changed, 11 insertions(+), 2 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f40de6173cb9170f1772b31aa2ed3dad4425d201 but expected 3916f7c06417151080886f61ee4408de4528cb9b)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
