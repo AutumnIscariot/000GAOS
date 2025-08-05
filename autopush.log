@@ -1616,16 +1616,29 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-riot/000GAOS.git'
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main e89e42c] Auto-update from Vault
- 1 file changed, 9 insertions(+), 2 deletions(-)
+[main aae148d] Auto-update from Vault
+ 1 file changed, 21 insertions(+), 2 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at e89e42caf67ed60e862e37f940372055662f84fa but expected 132e2ce6d4786a7bc71f69b8386b87c0703898a5)
+   e89e42c..aae148d  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+ed] main -> main (cannot lock ref 'refs/heads/main': is at e89e42caf67ed60e862e37f940372055662f84fa but expected 132e2ce6d4786a7bc71f69b8386b87c0703898a5)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at aae148d3ddaf8f9491e43a713eb6a63a22515e52 but expected e89e42caf67ed60e862e37f940372055662f84fa)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
