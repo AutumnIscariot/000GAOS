@@ -2360,16 +2360,14 @@ Watches established.
 ./ MODIFY autopush.log
 [main 62a215b] Auto-update from Vault
  1 file changed, 10 insertions(+), 6 deletions(-)
-49b82ebe85699363ff63b66b8612
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   0acf16f..62a215b  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+"git commit -a")
 Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -2444,3 +2442,7 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 4f33f16] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
