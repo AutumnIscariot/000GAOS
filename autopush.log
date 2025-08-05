@@ -1203,7 +1203,13 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-watches.  Beware: since -r was given, this may take a while!
+[main 84857be] Auto-update from Vault
+ 1 file changed, 22 insertions(+), 2 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   ee5d775..84857be  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
@@ -1213,10 +1219,16 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+9c4c4eeecc59e1c185376ba9d221cc55fdeb7)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: cannot lock ref 'HEAD': is at 84857be19bede7949e7ca25bb2352ad2be89f0d2 but expected ee5d775a48cc988afe38e5c12fe5f475528b1d15
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at ee5d775a48cc988afe38e5c12fe5f475528b1d15 but expected 6969c4c4eeecc59e1c185376ba9d221cc55fdeb7)
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 84857be19bede7949e7ca25bb2352ad2be89f0d2 but expected ee5d775a48cc988afe38e5c12fe5f475528b1d15)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
