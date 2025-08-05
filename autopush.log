@@ -3555,9 +3555,9 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-cabdfc] Auto-update from Vault
- 1 file changed, 12 insertions(+), 10 deletions(-)
-remote: This repository moved. Please use the new location:        
+[main d9be6e1] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+e: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
    853c095..dcabdfc  main -> main
@@ -3675,3 +3675,7 @@ Watches established.
 ./ MODIFY autopush.log
 [main df63fdf] Auto-update from Vault
  1 file changed, 11 insertions(+), 3 deletions(-)
+Everything up-to-date
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
