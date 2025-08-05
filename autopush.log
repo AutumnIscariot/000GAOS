@@ -3963,8 +3963,9 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/c4/ CREATE tmp_obj_m3e9Lg
-ot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f6c94dd0949e6e8c90b40657c38c14f8d5a5fac2 but expected 2bfb0a461ba69de804b3944b7cf0301b9253feba)
+[main fc75ac5] Auto-update from Vault
+ 1 file changed, 22 insertions(+), 19 deletions(-)
+t f6c94dd0949e6e8c90b40657c38c14f8d5a5fac2 but expected 2bfb0a461ba69de804b3944b7cf0301b9253feba)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -8064,3 +8065,11 @@ Watches established.
 ./ MODIFY autopush.log
 [main f99b7a3] Auto-update from Vault
  1 file changed, 17 insertions(+), 8 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f99b7a3b32e54ed8c5467727938876189f7c9920 but expected cafb5aee63d669bf4670767f7b4064aa26abb18d)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
