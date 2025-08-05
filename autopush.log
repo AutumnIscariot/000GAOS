@@ -1836,19 +1836,17 @@ Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-com/AutumnIscariot/000GAOS.git        
+[main 278a8ec] Auto-update from Vault
+ 1 file changed, 47 insertions(+), 10 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5e344fd80eccdcee9a586c46aa4b7bd8c5218d96 but expected 82d7f51f86153dcfbfc074b67326f800e7d6f308)
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 278a8ecf6ee846bf163ad9102a965a98b4a4645f but expected 34434a8c8b1c8a7da5e102c977cb3729eec0dea7)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
-remote: This repository moved. Please use the new location:        
+d. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 34434a8c8b1c8a7da5e102c977cb3729eec0dea7 but expected 5e344fd80eccdcee9a586c46aa4b7bd8c5218d96)
@@ -1867,6 +1865,18 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 Everything up-to-date
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   34434a8..278a8ec  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
