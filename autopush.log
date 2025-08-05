@@ -3812,16 +3812,13 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
-//github.com/autumniscariot/000GAOS.git'
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at eabe410e51aee43fb862a0b2bb2e0de67a7a5563 but expected 0074fdcee16040f788f5574970a93dd2b981040c)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-[main 574a9b1] Auto-update from Vault
- 1 file changed, 0 insertions(+), 0 deletions(-)
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
-To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 574a9b1f1a69716c9e803dced333b7ce98d94927 but expected 2289c67be0459f9c7d417cbb39c83c8282bbda09)
+./.git/refs/heads/ CREATE main.lock
+te rejected] main -> main (cannot lock ref 'refs/heads/main': is at 574a9b1f1a69716c9e803dced333b7ce98d94927 but expected 2289c67be0459f9c7d417cbb39c83c8282bbda09)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -7960,3 +7957,5 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 92ff3ff] Auto-update from Vault
+ 1 file changed, 14 insertions(+), 4 deletions(-)
