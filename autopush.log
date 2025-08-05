@@ -135,23 +135,17 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-blished.
-./ MODIFY autopush.log
-[main c00197c] Auto-update from Vault
- 1 file changed, 0 insertions(+), 0 deletions(-)
+[main 7d07c6c] Auto-update from Vault
+ 1 file changed, 24 insertions(+), 6 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
-   d9d52e5..3ee0c7d  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 7d07c6c298f14d58b363bd85d000a92573b596d4 but expected cb47c4fb5424da1c3c266f6b198a303c1cd18a55)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+ill be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   autopush.log
 
@@ -196,6 +190,20 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
    6a57aa6..cb47c4f  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   cb47c4f..7d07c6c  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
