@@ -3771,11 +3771,14 @@ Watches established.
 ./ MODIFY autopush.log
 [main 57dfe0b] Auto-update from Vault
  1 file changed, 23 insertions(+), 5 deletions(-)
-AOS.git        
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 6d7ed6c569f7c9d6ed5412dc1b2d42d55e5c4480 but expected c549af6cf55a2d6a48b0950595037d9c41bd8455)
-error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+   4da742d..57dfe0b  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main d009436] Auto-update from Vault
@@ -3944,3 +3947,20 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 8b2f489] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 8b2f4891c8524a85bb2726160d79ee6934519354 but expected 4da742d49e7b147bcfdd2d4f7bef555b4c095633)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
