@@ -3888,14 +3888,17 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
- autopush.log
-[main cc72570] Auto-update from Vault
- 1 file changed, 0 insertions(+), 0 deletions(-)
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
-To https://github.com/autumniscariot/000GAOS.git
-   68d47b7..cc72570  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 17343ab] Auto-update from Vault
@@ -7594,16 +7597,13 @@ Watches established.
  1 file changed, 13 insertions(+), 11 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
-m/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
-   886fe0f..261a0c1  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 839b4b6d59e094bc8a414a4771f4dadf654b746a but expected dd2643ff26feff5dc7f63d7c8e451384d7b2d3cc)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 3fa214e] Auto-update from Vault
- 1 file changed, 51 insertions(+), 19 deletions(-)
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
+m/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 3fa214e440d98a5d7d87870332e927fe0569ccb7 but expected 261a0c16eb9b8c0c96a2a5f231752f02ba787b19)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
@@ -7989,3 +7989,12 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main a2818b1] Auto-update from Vault
+ 1 file changed, 13 insertions(+), 5 deletions(-)
