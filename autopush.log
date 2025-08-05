@@ -2222,12 +2222,14 @@ Watches established.
 ./ MODIFY autopush.log
 [main f0e3ae6] Auto-update from Vault
  1 file changed, 23 insertions(+), 11 deletions(-)
-'refs/heads/main': is at cdac8fe291633c1a0117a6b32d19d3b095bd53d2 but expected 86ea2a6957ef66f3bd8a9c5952cb6e81953f1448)
-error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   fa9cfc7..f0e3ae6  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 8a79898] Auto-update from Vault
+98] Auto-update from Vault
  1 file changed, 8 insertions(+), 2 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
@@ -2278,3 +2280,7 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main a9e5912] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
