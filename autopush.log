@@ -466,13 +466,13 @@ Watches established.
  1 file changed, 5 insertions(+), 3 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
-ed] main -> main (cannot lock ref 'refs/heads/main': is at 2fdaf1d2b7124e30056f67e8944f7db9b670d906 but expected 8fa6bdfc6f24d4c150f42c25240214ff99027dc4)
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 0aec86291e1ff83e8ccbc2b654f8d4b0a355bc71 but expected 77b28f926293c74f3dab22467b25083e98f9584a)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 3caff71] Auto-update from Vault
- 1 file changed, 19 insertions(+), 7 deletions(-)
+ns(+), 7 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
@@ -514,3 +514,5 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 315b9dd] Auto-update from Vault
+ 1 file changed, 11 insertions(+), 3 deletions(-)
