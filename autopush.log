@@ -2290,10 +2290,11 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-hub.com/autumniscariot/000GAOS.git'
+Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+ autopush.log
 [main a9e5912] Auto-update from Vault
  1 file changed, 9 insertions(+), 2 deletions(-)
 remote: This repository moved. Please use the new location:        
@@ -2363,3 +2364,5 @@ Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 565c521] Auto-update from Vault
+ 1 file changed, 61 insertions(+), 13 deletions(-)
