@@ -1721,8 +1721,9 @@ To https://github.com/autumniscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 8f9f2f8007930d601fbe1ad447f71a8b5ff683fa but expected bb988250dca643fe2ceff4d5c174d029b52642ad)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-to-update from Vault
- 1 file changed, 17 insertions(+), 5 deletions(-)
+Watches established.
+./.git/objects/89/ CREATE tmp_obj_049GxK
+tions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
