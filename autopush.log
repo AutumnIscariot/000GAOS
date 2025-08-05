@@ -492,15 +492,16 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-b81ad10a2b1d2fb7179ed3)
-error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+[main 0550a33] Auto-update from Vault
+ 1 file changed, 20 insertions(+), 8 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   4a3b5f2..0550a33  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 77b28f9] Auto-update from Vault
- 1 file changed, 28 insertions(+), 8 deletions(-)
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
+iot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
    a4869ae..77b28f9  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -530,6 +531,19 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
    fb9628b..509e620  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 0550a334e2c71ff6e767f48f22277b6e128a0686 but expected 4a3b5f22ec7505ffdf6662690c92834f9a6ed74e)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
