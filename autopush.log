@@ -737,9 +737,11 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-n -> main
+[main 2a75ebf] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 7 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git    remotTo https://github.com/autumniscariot/000GAOS.git
+   5c07e1c..2a75ebf  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 725c3c8] Auto-update from Vault
- 1 file changed, 10 insertions(+), 3 deletions(-)
