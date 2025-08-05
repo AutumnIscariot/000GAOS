@@ -1127,10 +1127,11 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-(use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+ and/or "git commit -a")
 Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -1149,3 +1150,5 @@ Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 3d3e3ca] Auto-update from Vault
+ 1 file changed, 56 insertions(+), 13 deletions(-)
