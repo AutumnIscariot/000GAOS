@@ -2081,17 +2081,18 @@ Your branch is ahead of 'origin/main' by 1 commit.
 nothing to commit, working tree clean
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
- lock ref 'refs/heads/main': is at 176c3661d43fbed1c162476a19f3ce47a833f88c but expected 5aebb8d1b7e04d1da1c41f9fff5f363b9d3088d1)
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 4c27a740c9dd18af4fbdf51ad8a291a6951ae741 but expected 176c3661d43fbed1c162476a19f3ce47a833f88c)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 4c27a74] Auto-update from Vault
- 1 file changed, 18 insertions(+), 1 deletion(-)
-remote: This repository moved. Please use the new location:        
+ote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
    176c366..4c27a74  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main cf1d544] Auto-update from Vault
+ 1 file changed, 15 insertions(+), 4 deletions(-)
