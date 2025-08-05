@@ -2053,6 +2053,19 @@ To https://github.com/autumniscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 7a4198a781f1b5f9b1c4d67867d6c7ff87eab22c but expected 32d8fc08369df319795eb776909a846121b67ec0)
 error: failed to push some refs to 'https://giTo https://github.com/autumniscariot/Setting up watches.  Beware: since -r was giveSetting up watches.  BewarWatches established.
 ./ MODIFY autopush.log
-!
+fatal: Unable to create '/data/data/com.termux[main 5aebb8d] Auto-update from Vault
+ 1 file changed, 19 insertions(+), 4 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   7a4198a..5aebb8d  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+ub.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5aebb8d1b7e04d1da1c41f9fff5f363b9d3088d1 but expected 7a4198a781f1b5f9b1c4d67867d6c7ff87eab22c)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
