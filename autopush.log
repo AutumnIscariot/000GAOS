@@ -3610,8 +3610,9 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
-ation:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
+Watches established.
+./.git/objects/c8/ CREATE tmp_obj_nO5IPr
+GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
    65ee816..5784580  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
