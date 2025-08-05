@@ -3431,21 +3431,16 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/dc/ CREATE tmp_obj_tCFRoi
-   
+[main 056e644] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
-   4dec7c9..4ff21b1  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 056e644d8a695889785c5ff905ff932bfe955ccb but expected 853c095cc694245393b012d3d209aa8c09924c4d)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: confused by unstable object source data for f2de8fe896bf69fcfc6229f33d8052d8a8d648be
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
@@ -3567,3 +3562,10 @@ Watches established.
 ./ MODIFY autopush.log
 [main dcabdfc] Auto-update from Vault
  1 file changed, 12 insertions(+), 10 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   853c095..dcabdfc  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
