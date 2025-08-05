@@ -808,11 +808,34 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-github.com/AutumnIscariot/000GAOS.git        
+[main 0c388ec] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 9 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
-   63a078a..a794dcd  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 0c388ec36c9217b225b573e1855a72d99538144e but expected a794dcd9c84bbde42dc1ab8b564449fe6ccf3815)
+error: failed to push somTo https://github.com/autumniscariot/000GAOS.git
+   a794dcSetting up watches.  BewaSetting up watches.  Beware: since -r was givenWatches established.
+./ MWatches establishedfatal: Unable to create 'fatal: confused by unstable object source data for 6f0bd04a76fcfd80d3b3e4919812d6ddd8ebdf71
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main ad4e1fe] Auto-update from Vault
- 1 file changed, 15 insertions(+), 3 deletions(-)
+nges in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
