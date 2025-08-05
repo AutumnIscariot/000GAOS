@@ -62,8 +62,9 @@ remote:   https://github.com/AutumnIscariot/000GAOS.git
 To https://github.com/autumniscariot/000GAOS.git
    cb12d04..d9d52e5  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-utopush.log
-[main 07b2a63] Auto-update from Vault
+Watches established.
+./ MODIFY autopush.log
+Vault
  1 file changed, 0 insertions(+), 0 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
