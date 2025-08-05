@@ -1138,9 +1138,10 @@ remote:   https://github.com/AutumnIscariot/000GAOS.git
 To https://github.com/autumniscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 02c31c845b43069f5249bcbfab00ecba2076d018 but expected 6d3915671c647754f2b1133ffe8a596ea8441ab9)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
-d to commit (use "git add" and/or "git commit -a")
-Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+iven, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 3d3e3ca] Auto-update from Vault
@@ -1152,3 +1153,5 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 49a83de] Auto-update from Vault
+ 1 file changed, 14 insertions(+), 14 deletions(-)
