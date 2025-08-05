@@ -1027,20 +1027,17 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-d to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 6e19571] Auto-update from Vault
- 1 file changed, 2 insertions(+)
+[main fb858a1] Auto-update from Vault
+ 1 file changed, 7 insertions(+), 5 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
-   61da758..6e19571  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fb858a171474a6519bcf635de00ce87713d0d428 but expected 7248af07c21c758b3c8bf9b6a3a7032a36b12973)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: cannot lock ref 'HEAD': is at b4732943c9265ff305cf824ea5c78044b1492d24 but expected 6e19571e73344a79242f05683fac43ce5c27d82f
+ff305cf824ea5c78044b1492d24 but expected 6e19571e73344a79242f05683fac43ce5c27d82f
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
@@ -1060,3 +1057,10 @@ Watches established.
 ./ MODIFY autopush.log
 [main 248793a] Auto-update from Vault
  1 file changed, 17 insertions(+), 6 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   7248af0..248793a  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
