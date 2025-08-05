@@ -2580,10 +2580,12 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-e!
-Watches established.
-./.git/refs/remotes/origin/ CREATE main.lock
-fatal: confused by unstable object source data for 629d4903200585f0ac8f95aa4188d4d1d725d382
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+5d382
 On branch main
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
