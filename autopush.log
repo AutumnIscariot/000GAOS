@@ -978,15 +978,16 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/c8/ CREATE tmp_obj_A0MeND
-. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-[main d8c934e] Auto-update from Vault
- 1 file changed, 25 insertions(+), 4 deletions(-)
+[main fe96cd7] Auto-update from Vault
+ 1 file changed, 5 insertions(+), 2 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d8c934e913e1f0b70d4460e5d647b329272208e4 but expected 54f337a3ff821acd4b05ba7246764f1ea5fa97ae)
+   cc0a018..fe96cd7  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+in (cannot lock ref 'refs/heads/main': is at d8c934e913e1f0b70d4460e5d647b329272208e4 but expected 54f337a3ff821acd4b05ba7246764f1ea5fa97ae)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -1002,3 +1003,11 @@ Watches established.
 ./ MODIFY autopush.log
 [main e3a776c] Auto-update from Vault
  1 file changed, 17 insertions(+), 10 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fe96cd7913d7964892a4cb67017854a574d26aed but expected cc0a018c1e11f55379775eec141f5cec6a78dca4)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
