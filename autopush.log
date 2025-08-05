@@ -281,14 +281,16 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-b2323b57c6fe41a5f9bbd2cf454672e3154bf but expected 19d6b2fe060e48f2bcbca25d8a10fd7df05ecfbb)
-error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+[main 55da669] Auto-update from Vault
+ 1 file changed, 30 insertions(+), 9 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   565cdec..4688966  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main d62d4ac] Auto-update from Vault
- 1 file changed, 24 insertions(+), 3 deletions(-)
-remote: This repository moved. Please use the new location:        
+se the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
    c5cb232..d62d4ac  main -> main
@@ -350,3 +352,13 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/9d/ CREATE tmp_obj_Tyah8Y
+[main 4688966] Auto-update from Vault
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 4688966400e7667e4524d96cefacbbc5e0b24d7a but expected 565cdec8a8f577bb4a070efd54b4d2b948e968b0)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
