@@ -987,14 +987,15 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-in (cannot lock ref 'refs/heads/main': is at d8c934e913e1f0b70d4460e5d647b329272208e4 but expected 54f337a3ff821acd4b05ba7246764f1ea5fa97ae)
-error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+fatal: cannot lock ref 'HEAD': is at 61da758d09f465fe58a3988ba1bb84c075449784 but expected fe96cd7913d7964892a4cb67017854a574d26aed
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   fe96cd7..61da758  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main cc0a018] Auto-update from Vault
- 1 file changed, 20 insertions(+), 8 deletions(-)
-remote: This repository moved. Please use the new location:        
+se use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
    d8c934e..cc0a018  main -> main
@@ -1011,3 +1012,18 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main 61da758] Auto-update from Vault
+ 1 file changed, 15 insertions(+), 6 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 61da758d09f465fe58a3988ba1bb84c075449784 but expected fe96cd7913d7964892a4cb67017854a574d26aed)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
