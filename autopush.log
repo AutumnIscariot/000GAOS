@@ -3943,14 +3943,14 @@ Watches established.
 ./.git/objects/4e/ CREATE tmp_obj_olxh9V
 [main 68a45ba] Auto-update from Vault
  1 file changed, 31 insertions(+), 17 deletions(-)
-ot staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Everything up-to-date
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   737a6d8..68a45ba  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+e a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 0a9f882] Auto-update from Vault
@@ -7656,25 +7656,22 @@ Watches established.
 ./ MODIFY autopush.log
 [main 3148cc4] Auto-update from Vault
  1 file changed, 6 insertions(+), 7 deletions(-)
- is at 56fb73e7c82d59bd8e86ecb8acc66b0f7601eaf8 but expected eebb13825188605fe315bbc38a28b99a7b304573)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at cafb5aee63d669bf4670767f7b4064aa26abb18d but expected 737a6d83747c4f731fea665ebd9965d34658ec03)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: confused by unstable object source data for cde92295d360b3198dc89682e024bdc283b4b067
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
-To https://github.com/autumniscariot/000GAOS.git
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+iscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 22be0b790756270c02337dac5a1d3f5ec5d36f2f but expected 56fb73e7c82d59bd8e86ecb8acc66b0f7601eaf8)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -8053,3 +8050,5 @@ Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main cafb5ae] Auto-update from Vault
+ 1 file changed, 7 insertions(+), 2 deletions(-)
