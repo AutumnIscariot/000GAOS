@@ -3828,7 +3828,9 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-te rejected] main -> main (cannot lock ref 'refs/heads/main': is at a7ae0a7aa8a4306f877a30d8700170ad4b4c01f6 but expected 574a9b1f1a69716c9e803dced333b7ce98d94927)
+[main 4846c08] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+a30d8700170ad4b4c01f6 but expected 574a9b1f1a69716c9e803dced333b7ce98d94927)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -7559,15 +7561,13 @@ Watches established.
  1 file changed, 6 insertions(+), 6 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
-6)
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d04fea1dc70a7d2c8d5eff0b7b4ed618e66f7249 but expected eabe410e51aee43fb862a0b2bb2e0de67a7a5563)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 886fe0f] Auto-update from Vault
- 1 file changed, 30 insertions(+), 6 deletions(-)
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
+ 
 To https://github.com/autumniscariot/000GAOS.git
    d49c733..886fe0f  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -7966,3 +7966,5 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 462083e] Auto-update from Vault
+ 1 file changed, 14 insertions(+), 10 deletions(-)
