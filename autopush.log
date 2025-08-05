@@ -1300,6 +1300,17 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-this may take a while!
+[main 38dd9cd] Auto-update from Vault
+ 1 file changed, 21 insertions(+), 6 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   427a1ba..38dd9cd  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+ed] main -> main (cannot lock ref 'refs/heads/main': is at 38dd9cdc4c4e4d260432327239bf0a371296effe but expected 427a1baff2b933a61d0f19eb3c646eec1ab24fff)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
