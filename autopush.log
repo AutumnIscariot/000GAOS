@@ -3765,7 +3765,9 @@ Watches established.
 ./ MODIFY autopush.log
 [main 59521e9] Auto-update from Vault
  1 file changed, 9 insertions(+), 1 deletion(-)
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
@@ -7491,11 +7493,9 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-!
-Watches established.
-./ MODIFY autopush.log
-[main 52e011f] Auto-update from Vault
- 1 file changed, 25 insertions(+), 8 deletions(-)
+[main 7ca6ac8] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+file changed, 25 insertions(+), 8 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
@@ -7885,3 +7885,10 @@ Watches established.
 ./ MODIFY autopush.log
 [main 9218b8a] Auto-update from Vault
  2 files changed, 16 insertions(+), 6 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   ebc9bbe..9218b8a  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
