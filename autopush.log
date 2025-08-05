@@ -428,11 +428,6 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-com/autumniscariot/000GAOS.git
-   3f6019d..9d4cd8f  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -443,6 +438,11 @@ remove the file manually to continue.
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
+   2fdaf1d..3caff71  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+com/autumniscariot/000GAOS.git
    9d4cd8f..cec0f7a  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -462,6 +462,16 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 2fdaf1d2b7124e30056f67e8944f7db9b670d906 but expected 8fa6bdfc6f24d4c150f42c25240214ff99027dc4)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main 3caff71] Auto-update from Vault
+ 1 file changed, 19 insertions(+), 7 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 3caff71f6ad703ca93b81ad10a2b1d2fb7179ed3 but expected 2fdaf1d2b7124e30056f67e8944f7db9b670d906)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
