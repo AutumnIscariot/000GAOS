@@ -657,6 +657,22 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take Setting uWatches established.
 ./ MODIFY autopush.log
- may take a while!
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c2469b42d4d71299bdd4b59294c0396073ee5100 but expected 3b1b205d4bd66727fd77a362014ff2d9014758f5)
+error: failed Setting up watches.  Beware: since -r was given, this may take a whilSetWatches established.
+./ MODIFY autopush.log
+, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
