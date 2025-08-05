@@ -843,5 +843,16 @@ To https://github.com/autumniscariot/000GAOS.git
 error: failed to push some refs to 'https://github.comSetting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-shed.
+On branch main
+Your branch is[main 9703e6c] Auto-update from Vault
+ 1 file changed, 14 insertions(+), 5 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/To https://github.com/autumniscariot/000GAOS.gSetting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+b08 but expected da12e06966405df3d5ee2dca9e748813da150185)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
 ./ MODIFY autopush.log
