@@ -2156,9 +2156,11 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-
-To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 3f4db8162c99c8e629d682573b62e5201971b2e8 but expected 490c45b71b82326d3f7a843089983ad47f07c7e4)
+[main b92021e] Auto-update from Vault
+ 1 file changed, 21 insertions(+), 5 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -2180,6 +2182,18 @@ remote:   https://github.com/AutumnIscariot/000GAOS.git
 To https://github.com/autumniscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at bf3b4cebb5ee4722b4a36029804f996caf05b18c but expected 565afe35ea18bff6e3890ae19565cdd6948020f8)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   bf3b4ce..b92021e  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
