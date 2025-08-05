@@ -3483,19 +3483,15 @@ Watches established.
 ./ MODIFY autopush.log
 [main 22e9552] Auto-update from Vault
  1 file changed, 6 insertions(+), 8 deletions(-)
-odified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Everything up-to-date
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 22e9552c06575bcf74149b2f075b6262cd24dbaf but expected 65ee816b41106883e15280defb5b8ac0bc640e3e)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
+tory earlier:
 remove the file manually to continue.
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
@@ -3614,3 +3610,5 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main a809769] Auto-update from Vault
+ 1 file changed, 12 insertions(+), 7 deletions(-)
