@@ -3612,16 +3612,16 @@ Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/c8/ CREATE tmp_obj_nO5IPr
-GAOS.git        
+[main c549af6] Auto-update from Vault
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
-   65ee816..5784580  main -> main
+   d33342d..c549af6  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main a809769] Auto-update from Vault
- 1 file changed, 12 insertions(+), 7 deletions(-)
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
+0GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
    22e9552..a809769  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -3738,3 +3738,7 @@ Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/refs/remotes/origin/ CREATE main.lock
+[main b291625] Auto-update from Vault
+ 1 file changed, 45 insertions(+), 19 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
