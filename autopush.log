@@ -4773,19 +4773,21 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-te '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-[main 49470b4] Auto-update from Vault
- 1 file changed, 13 insertions(+), 4 deletions(-)
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
-To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 49470b44269e753aa5e27c7bf3f28dd08413141b but expected 23d84af906cb49f3252ddc4dd749e4032646069b)
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+ed 23d84af906cb49f3252ddc4dd749e4032646069b)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
