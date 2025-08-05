@@ -887,7 +887,19 @@ remote:   https://github.com/AutumnTo https://github.com/autumniscariot/000GAOS.
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-expected b02d358e56b2fda3eabf58b909ccdc2297d9c6c2)
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then tr[main 5625387] Auto-update from Vault
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+remote: This repository moved. Please remote: This repository moved. Please use the new location:        
+remote:   https://github.cTo https://github.com/autumniscariot/000GAOS.git
+   a784e99..5625387  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+f433 but expected a784e992a44799f252ff86c30548cab84271647a)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
