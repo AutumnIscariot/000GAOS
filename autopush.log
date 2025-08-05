@@ -1600,8 +1600,12 @@ remote: This repository moved. Please use the new location:
 remote:   https://github.com/AutumnIscariot/000GAOS.git    remotTo https://github.com/autumniscariot/000GAOS.git
    b5f2312..af93347  main -> main
 Setting up watches.  Beware: since -r was giTo https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at af9334706dbaaa9f1a0730430b2ee64bfcafaa26 but expected b5f23124d9df98de748b41797958fbfe08f34e3c)
-error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at af9334706dbaaa9f1a0730430b2ee64bfcaremote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   af93347..033ec24  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
