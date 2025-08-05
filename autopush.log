@@ -3932,8 +3932,9 @@ To https://github.com/autumniscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-3 insertions(+), 2 deletions(-)
-remote: This repository moved. Please use the new location:        
+[main 8eddc1e] Auto-update from Vault
+ 1 file changed, 14 insertions(+), 6 deletions(-)
+on:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
    1cf9a79..7c7234d  main -> main
@@ -7639,15 +7640,13 @@ Watches established.
  1 file changed, 6 insertions(+), 7 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
-om/autumniscariot/000GAOS.git'
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f86bcb1648d0f5b56f9099f5f913193e099c047c but expected 7c9e91740392eb5daf4f6dd98a6358abc8431faf)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
+ils, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 On branch main
@@ -8035,3 +8034,5 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/bf/ CREATE tmp_obj_ubbXqU
+[main 208ca65] Auto-update from Vault
+ 1 file changed, 2 insertions(+)
