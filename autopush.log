@@ -547,19 +547,26 @@ error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.gi
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-ariot/000GAOS.git        
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5a27a8ae23c95993294959de98d927975c21c598 but expected 0550a334e2c71ff6e767f48f22277b6e128a0686)
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at cd7a5aeab269817bc88afbb73d40c01c3e915070 but expected 49cc7ef9689a421bc5a3422883884f8415e55492)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 49cc7ef] Auto-update from Vault
- 1 file changed, 29 insertions(+), 19 deletions(-)
+ertions(+), 15 deletions(-)
 remote: This repository moved. Please use the new location:        
 remote:   https://github.com/AutumnIscariot/000GAOS.git        
 To https://github.com/autumniscariot/000GAOS.git
-   5a27a8a..49cc7ef  main -> main
+   49cc7ef..cd7a5ae  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
