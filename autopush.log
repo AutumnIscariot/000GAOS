@@ -2249,8 +2249,10 @@ Watches established.
 ./ MODIFY autopush.log
 [main 4dad91e] Auto-update from Vault
  1 file changed, 9 insertions(+), 5 deletions(-)
-> main (cannot lock ref 'refs/heads/main': is at 297dda96638810d0cbb4c7507f897dfab60ae598 but expected 8a79898c832543f5c7c970637fb8d8b1e1a80b61)
-error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+   e38beb5..4dad91e  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -2261,10 +2263,14 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
-To https://github.com/autumniscariot/000GAOS.git
-   297dda9..57b1729  main -> main
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -2275,13 +2281,16 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-[main fa9cfc7] Auto-update from Vault
- 1 file changed, 20 insertions(+), 9 deletions(-)
-remote: This repository moved. Please use the new location:        
-remote:   https://github.com/AutumnIscariot/000GAOS.git        
-To https://github.com/autumniscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fa9cfc7c14d9c5d340b86590512554a17adf806a but expected 57b17297d00cdff54ccdce588eb3a15e87ecae3c)
-error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+hub.com/autumniscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -2312,6 +2321,45 @@ remote:   https://github.com/AutumnIscariot/000GAOS.git
 To https://github.com/autumniscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at e38beb539441b01465ba30661c3f5a2f44994455 but expected d1e6b06168e1a658d4095f5b3b25717e0d8e4539)
 error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main c30fc87] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+remote: This repository moved. Please use the new location:        
+remote:   https://github.com/AutumnIscariot/000GAOS.git        
+To https://github.com/autumniscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c30fc879d251684c4a7cfe4e9b2b53d683a49453 but expected e38beb539441b01465ba30661c3f5a2f44994455)
+error: failed to push some refs to 'https://github.com/autumniscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for dcc95b5240e10fbbbfe5738ffa057495daa50846
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for a9ea204cb6e049b82ebe85699363ff63b66b8612
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
