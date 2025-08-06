@@ -5407,19 +5407,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
- <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Everything up-to-date
+[main e51e1d8] Auto-update from Vault
+ 1 file changed, 21 insertions(+), 7 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at e51e1d8c094e30eb6b8e1b5863a99c346f511c4a but expected 26b7fc04850a2c11df72ad9cbb2f21f279c3e35e)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-[main 2e86f6f] Auto-update from Vault
- 1 file changed, 2 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d5b27881e633d3458b767a1a9cd414787e5aa4dc but expected 6a6affe222ab21db1ece8222a0443333b5aecad4)
+./.git/objects/4e/ CREATE tmp_obj_kMS1io
+f 'refs/heads/main': is at d5b27881e633d3458b767a1a9cd414787e5aa4dc but expected 6a6affe222ab21db1ece8222a0443333b5aecad4)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -5645,3 +5641,23 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To github.com:AutumnIscariot/000GAOS.git
+   26b7fc0..e51e1d8  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for 4e09cfb5f2fc419e568c338a7b199938d69c0b4f
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
