@@ -20270,17 +20270,13 @@ Your branch is ahead of 'origin/main' by 3 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-ory, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 2542cf3a99bef0eba5fcfe3af1f3fc63a65a7079 but expected 2c2c1cfe9465d47346cb4f4286bdd604344553c0)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/24/ CREATE tmp_obj_WQC1Z0
+s in working directory)
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
