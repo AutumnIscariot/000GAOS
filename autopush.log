@@ -15022,12 +15022,12 @@ Watches established.
 ./.git/objects/b3/ CREATE tmp_obj_FSm9yp
 [main a1ec7294] Auto-update from Vault
  1 file changed, 8 insertions(+), 3 deletions(-)
-en, this may take a while!
+To github.com:AutumnIscariot/000GAOS.git
+   8e3eb204..a1ec7294  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
+./.git/objects/a9/ CREATE tmp_obj_A2W3WN
+ this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
@@ -15509,3 +15509,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 54b284de] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 2 deletions(-)
