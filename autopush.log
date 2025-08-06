@@ -5672,12 +5672,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 0ddfe01] Auto-update from Vault
  1 file changed, 6 insertions(+), 3 deletions(-)
-t:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+   67dd109..0ddfe01  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+use "git add" and/or "git commit -a")
 Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -5974,3 +5974,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/69/ CREATE tmp_obj_h4cFXy
+[main 2d46a3f] Auto-update from Vault
+ 1 file changed, 2 insertions(+)
