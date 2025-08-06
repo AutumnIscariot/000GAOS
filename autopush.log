@@ -1699,13 +1699,14 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fs to 'github.com:AutumnIscariot/000GAOS.git'
+[main c466777] Auto-update from Vault
+ 1 file changed, 21 insertions(+), 6 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   49b5bb4..c466777  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/refs/heads/ CREATE main.lock
-[main 63fef6b] Auto-update from Vault
- 1 file changed, 6 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
+./ MODIFY autopush.log
+AOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c9b29985a65b743f1a1f50e5589da4cd5ccb17d4 but expected 5c96eed6b22cc67ab0cf0f0757306b568b15873e)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -2039,6 +2040,17 @@ Watches established.
  1 file changed, 16 insertions(+), 7 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 49b5bb4f23e2d626b9de3868fb8dad0b2653def0 but expected 14d464c06d58c111b67863f9cf967a72338105b8)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c4667777b3ade945e684ab9f2c3146e57ac0f0ca but expected 49b5bb4f23e2d626b9de3868fb8dad0b2653def0)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
