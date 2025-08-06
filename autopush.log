@@ -14340,10 +14340,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main bde04903] Auto-update from Vault
  1 file changed, 7 insertions(+), 6 deletions(-)
-re: since -r was given, this may take a while!
+To github.com:AutumnIscariot/000GAOS.git
+   60a54c9b..bde04903  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/objects/3f/ CREATE tmp_obj_2Nvgzo
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+./ MODIFY autopush.log
+File exists.
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
