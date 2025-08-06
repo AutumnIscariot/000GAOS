@@ -10592,9 +10592,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
+[main 5e9ee941] Auto-update from Vault
+ 1 file changed, 20 insertions(+), 2 deletions(-)
+ry, e.g.
 an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
@@ -11344,3 +11344,8 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+   fcf506e9..f4163d95  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
