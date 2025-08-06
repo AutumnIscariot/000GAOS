@@ -2612,7 +2612,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-n -> main (cannot lock ref 'refs/heads/main': is at 5b2f34227384cae53f0ca114a36a3c349d6fad92 but expected 13c1c7d449e53086c4501ff7b393923e69f1378a)
+[main 5d17e29] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 5 deletions(-)
+fad92 but expected 13c1c7d449e53086c4501ff7b393923e69f1378a)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
