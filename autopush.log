@@ -17784,10 +17784,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
- while!
-Watches established.
-./.git/objects/57/ CREATE tmp_obj_jJiIW5
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+[main 183a995a] Auto-update from Vault
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+reate '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
@@ -18620,3 +18619,9 @@ Watches established.
 ./ MODIFY autopush.log
 [main da0c2f9a] Auto-update from Vault
  1 file changed, 9 insertions(+), 1 deletion(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at a42d56d99b17432315af777381654aba05236738 but expected 061a8d712defa95ba52ba2942b6463c077277186)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
