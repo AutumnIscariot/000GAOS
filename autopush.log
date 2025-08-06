@@ -4170,9 +4170,12 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-nges not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+tory)
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
@@ -4457,3 +4460,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main 3b748fa] Auto-update from Vault
  1 file changed, 11 insertions(+), 5 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   70d7f26..3b748fa  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
