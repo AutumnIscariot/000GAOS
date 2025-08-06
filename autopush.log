@@ -3246,9 +3246,9 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    2386228..036a87d  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-blished.
+Watches established.
 ./ MODIFY autopush.log
-On branch main
+in
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
