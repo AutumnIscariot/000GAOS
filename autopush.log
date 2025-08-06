@@ -7441,9 +7441,9 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    ec0c1c1..1c5c3d2  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-ariot/000GAOS.git
-   b0ebd2c..2b918c4  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/be/ CREATE tmp_obj_QHQVUo
+ watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 5f4c89f] Auto-update from Vault
