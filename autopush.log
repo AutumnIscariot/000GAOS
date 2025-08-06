@@ -5928,12 +5928,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 4456c4e] Auto-update from Vault
  1 file changed, 9 insertions(+), 3 deletions(-)
- commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
+To github.com:AutumnIscariot/000GAOS.git
+   af66b5d..4456c4e  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+d changes in working directory)
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
@@ -6244,3 +6244,12 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main c998309] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 3 deletions(-)
