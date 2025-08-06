@@ -26375,16 +26375,13 @@ may have crashed in this repository earlier:
 remove the file manually to continue.
 [main a07737d0] Auto-update from Vault
  1 file changed, 4 insertions(+), 2 deletions(-)
-ting up watches.  Beware: since -r was given, this may take a while!
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 02a7d54d7ca3f29357b7fdd518123a5d4c75a4c2 but expected 8818b957f51340e8359e31f4db88a6dec86f1632)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-fatal: confused by unstable object source data for 639b985ea26566445d9a352391397de371f07543
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
+./.git/objects/a2/ CREATE tmp_obj_wfUYj2
+ctory)
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
@@ -27950,3 +27947,5 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main d86aa00f] Auto-update from Vault
+ 1 file changed, 16 insertions(+), 13 deletions(-)
