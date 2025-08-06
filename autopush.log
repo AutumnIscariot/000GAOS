@@ -12665,18 +12665,13 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-a while!
-Watches established.
-./ MODIFY autopush.log
-[main fb864289] Auto-update from Vault
- 1 file changed, 12 insertions(+), 10 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   0c827170..fb864289  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at b82527d8983c76b86ed9efe63327d2be4592aa42 but expected b34f95010fb5173a817af5dda5e987d10989df42)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 643dc3cb] Auto-update from Vault
- 1 file changed, 8 insertions(+), 4 deletions(-)
+), 4 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    fb864289..643dc3cb  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -13186,3 +13181,13 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
