@@ -4639,9 +4639,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main d377c34] Auto-update from Vault
  1 file changed, 5 insertions(+), 2 deletions(-)
-it
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d37cf9ec4e602738d082af699c47e40a79c22b29 but expected 84cc3edecd48632431b831a2f09d369843a5142d)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   60e48d5..d377c34  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+ push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -4853,3 +4856,5 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/da/ CREATE tmp_obj_aHFmHx
+[main 49abe7d] Auto-update from Vault
+ 1 file changed, 2 insertions(+)
