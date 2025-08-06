@@ -1562,11 +1562,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main d5e8a3c] Auto-update from Vault
  1 file changed, 5 insertions(+), 2 deletions(-)
-ux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
+To github.com:AutumnIscariot/000GAOS.git
+   c0dea08..d5e8a3c  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+minated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 [main 57f35fd] Auto-update from Vault
@@ -1872,3 +1873,5 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main e45e6ac] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 3 deletions(-)
