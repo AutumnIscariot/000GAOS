@@ -8991,3 +8991,6 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 902b824c659a92ddef26cad28fae6e0340016e03 but expected 43327ab18adda6f296a999ad53eebcb4d94909a8)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/6f/ MODIFY tmp_obj_sfinL4
