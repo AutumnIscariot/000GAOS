@@ -13750,26 +13750,20 @@ Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-nged, 25 insertions(+), 16 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   af7b4feb..f85321f3  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 798d38909c877a0ad7b4877c6e2331e0599f0f80 but expected fab972941fd2ecddf74bca090a4a1fbad3d55843)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 8f3a7576] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   a26a17e7..8f3a7576  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 7a5536f4] Auto-update from Vault
- 1 file changed, 20 insertions(+), 14 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   397a3384..7a5536f4  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+FY autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -14132,3 +14126,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 90c6f2d0] Auto-update from Vault
+ 1 file changed, 11 insertions(+), 5 deletions(-)
