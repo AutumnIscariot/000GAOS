@@ -6979,10 +6979,9 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-ven, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 15bb015] Auto-update from Vault
+[main 7b1c83e] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+Auto-update from Vault
  1 file changed, 2 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c3520bb0929febb2a6241f45cb017d9a08b9013b but expected a73ee2348e618c81d3c1a4adc78751de176e7161)
@@ -7228,3 +7227,16 @@ Watches established.
 ./.git/objects/c6/ CREATE tmp_obj_jE9nfT
 [main 2615114] Auto-update from Vault
  1 file changed, 2 insertions(+)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 717621b2fcc3fd40ab1d6cde668864cad7ecf8cb but expected a661e4af74394bd31e0abce11c86d76236b184f9)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
