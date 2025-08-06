@@ -15122,10 +15122,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-r local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+[main 417a7120] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+at will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   autopush.log
 
@@ -15583,3 +15582,7 @@ Watches established.
 ./.git/objects/4e/ MODIFY tmp_obj_stBzpr
 [main 86b14bab] Auto-update from Vault
  1 file changed, 2 insertions(+)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at bea5677348650b982cc2b3ddba7d671c4c2b8063 but expected be9f9979fa23b44ea8f9c48a41e3dea51a41bbcc)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
