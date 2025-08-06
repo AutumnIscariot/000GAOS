@@ -5836,3 +5836,5 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 7977097a12208e0a3f969b622fcc808a128b2cfd but expected 9af537bac247aeb60b2e1d29fca5c9d60af5097a)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/ee/ CREATE tmp_obj_yatwM1
