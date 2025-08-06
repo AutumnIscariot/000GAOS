@@ -4340,27 +4340,20 @@ Watches established.
 ./.git/objects/35/ CREATE tmp_obj_YC6Rmv
 [main 204b557] Auto-update from Vault
  1 file changed, 3 insertions(+), 2 deletions(-)
-established.
-./ MODIFY autopush.log
-[main 0f6902c] Auto-update from Vault
- 1 file changed, 11 insertions(+), 6 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   f94f12b..0f6902c  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 204b5570461e2bcd79cc2e6354af2790a5e3f97b but expected bb0ef209174bb21fa5d0d9e21a62c4b8a1c7fb35)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 898833b] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   00f1610..898833b  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 4be759f] Auto-update from Vault
- 1 file changed, 8 insertions(+), 4 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   7efbc33..4be759f  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+are: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main e8a4ead] Auto-update from Vault
@@ -4554,3 +4547,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main bede6d4] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 3 deletions(-)
