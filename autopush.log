@@ -25263,17 +25263,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 75e0f928] Auto-update from Vault
  1 file changed, 11 insertions(+), 3 deletions(-)
-commits.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at ed7f701dc6436564854f88746179406cf86e8026 but expected a2462aacbbe60aa213a5e92074b8384b4ee6a456)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 21ec157f29a5cae61f43038107b0eef9376855f9 but expected 609416fef7661b2411d4f855ccb9ace223e20505)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+ref 'refs/heads/main': is at ed7f701dc6436564854f88746179406cf86e8026 but expected a2462aacbbe60aa213a5e92074b8384b4ee6a456)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -26751,3 +26747,22 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 21ec157f29a5cae61f43038107b0eef9376855f9 but expected 609416fef7661b2411d4f855ccb9ace223e20505)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/be/ CREATE tmp_obj_c2daZb
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
