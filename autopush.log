@@ -26416,16 +26416,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 8cfa0812] Auto-update from Vault
  1 file changed, 6 insertions(+), 3 deletions(-)
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 8cfa0812571fc30bcfb95d6af413cf590eb3bd94 but expected 05b39d05bbdc6ca1cc7d2c14a63d9d4eae603332)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   autopush.log
@@ -27978,3 +27975,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 50d4ac6b] Auto-update from Vault
+ 1 file changed, 7 insertions(+), 2 deletions(-)
