@@ -23601,9 +23601,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main aa5549a8] Auto-update from Vault
  1 file changed, 4 insertions(+), 4 deletions(-)
-main': is at 136265ef837473679fb6501859d3fd955c49ecd9 but expected 44a662703dea60d2302957d62e7f7322c7886060)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   3de001c4..aa5549a8  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+p watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 60e17daf] Auto-update from Vault
