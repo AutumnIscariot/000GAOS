@@ -1370,12 +1370,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main c9b2998] Auto-update from Vault
  1 file changed, 8 insertions(+), 5 deletions(-)
-If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
-  (use "git push" to publish your local commits)
+To github.com:AutumnIscariot/000GAOS.git
+   5c96eed..c9b2998  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -1645,3 +1645,5 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/refs/heads/ CREATE main.lock
+[main 63fef6b] Auto-update from Vault
+ 1 file changed, 6 insertions(+)
