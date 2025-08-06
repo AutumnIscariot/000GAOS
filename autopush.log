@@ -7295,14 +7295,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main e691402] Auto-update from Vault
  1 file changed, 19 insertions(+), 8 deletions(-)
-re: since -r was given, this may take a while!
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 1d9fb317db7552c03ebfd4cf2626ec395cae9567 but expected 7afde5d52c6ed978de64e95fb5409baf4c6aa64e)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 3af6538] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 05e350270db806445536b709c5a24be1ceab6c12 but expected c839e8002f1b791de7baf1223f2b6b1f3851d466)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+ to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -7502,6 +7501,22 @@ Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: confused by unstable object source data for 80c5efc4a43d866549881b0b3de6990f8810d7ba
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+   7afde5d..1d9fb31  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for 208807e20c4ab4643bc97d6e79a3a58f369eab3b
 On branch main
 Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
