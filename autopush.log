@@ -4913,16 +4913,18 @@ remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
    a1e22f2..42360bb  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-git'
-Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-[main cbb76ae] Auto-update from Vault
- 1 file changed, 9 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 1f3966e16f4bc9f26cf38e967e78107165d78c39 but expected dcfc144c7da695b54cf76a4302c7075f8562e6b1)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
-Setting up watches.  Beware: since -r was given, this may take a while!
+./.git/objects/ce/ CREATE tmp_obj_2qu53P
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main 1c66927] Auto-update from Vault
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 049ae91] Auto-update from Vault
@@ -5179,6 +5181,17 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 42360bb611d1bbc7ca844aeefa07e4bae858d9aa but expected a1e22f229e6372151b99dabafb93f417f8262aaf)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
