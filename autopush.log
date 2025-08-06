@@ -24904,11 +24904,12 @@ Watches established.
 ./.git/objects/8d/ MODIFY tmp_obj_1Bzssj
 [main 1e71a68d] Auto-update from Vault
  1 file changed, 8 insertions(+), 5 deletions(-)
-ontinue.
 To github.com:AutumnIscariot/000GAOS.git
- ! [rejected]          main -> main (non-fast-forward)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
-hint: Updates were rejected because the tip of your current branch is behind
+   7effae56..1e71a68d  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+ were rejected because the tip of your current branch is behind
 hint: its remote counterpart. If you want to integrate the remote changes,
 hint: use 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
@@ -26340,3 +26341,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 46e81b7b] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 3 deletions(-)
