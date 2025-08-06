@@ -7509,8 +7509,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/75/ CREATE tmp_obj_a8CXLP
-git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
+[main 2682dfc] Auto-update from Vault
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+discard changes in working directory)
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
@@ -7719,3 +7720,9 @@ Watches established.
 ./ MODIFY autopush.log
 [main 931f7d5] Auto-update from Vault
  1 file changed, 22 insertions(+), 9 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 931f7d54db687f02c262f21c02a1beff5c443250 but expected fc4d3b77b073a6955c27ac2346e70ffa45241a8d)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/refs/heads/ CREATE main.lock
