@@ -10717,9 +10717,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-d)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
+[main af25c68f] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 6 deletions(-)
+autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
 Everything up-to-date
