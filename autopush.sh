@@ -6,8 +6,7 @@ HEARTBEAT_TOGGLE="$HOME/.heartbeat_enabled"
 while true; do
     # Stop mid-loop if toggle removed
     if [ ! -f "$HEARTBEAT_TOGGLE" ]; then
-        echo "$(date '+%Y-%m-%d %H:%M:%S') - 💔 Heartbeat stopped"
-        exit 0
+        echo "$(date '+%Y-%m-%d %H:%M:%S') - 💔 Heartbeat" >> "$HOME/OOOGAOS/autopush.log"
     fi
 
     cd "$REPO_DIR" || exit
