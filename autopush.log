@@ -9780,16 +9780,13 @@ Your branch is ahead of 'origin/main' by 3 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-nges not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
-   370c810b..c02f01bf  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at bbc09cdeaf27d2f70182753129b0e0ec00663117 but expected 93afd4ef3329d31918750a96722e9f87eeaad12f)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
+./ MODIFY autopush.log
+ches established.
 ./ MODIFY autopush.log
 [main d4c8619a] Auto-update from Vault
  1 file changed, 8 insertions(+), 1 deletion(-)
@@ -10515,3 +10512,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main a5667efd] Auto-update from Vault
+ 1 file changed, 10 insertions(+), 9 deletions(-)
