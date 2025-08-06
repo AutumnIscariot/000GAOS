@@ -17732,16 +17732,19 @@ Your branch is ahead of 'origin/main' by 3 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-m:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f9b5785c6bd4fd83fecf69be0c1870e09030d722 but expected 5e4196eab8a958b7cc451ce8224420fabd0a781f)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   e27e4020..ef215e3b  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main f012c3a1] Auto-update from Vault
- 1 file changed, 2 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at cd5d813b4388fd4622a6668fc702f2782be143e1 but expected 34d95b303ff88edf2a88bd5b195fcbff56a56421)
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+ads/main': is at cd5d813b4388fd4622a6668fc702f2782be143e1 but expected 34d95b303ff88edf2a88bd5b195fcbff56a56421)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -18553,3 +18556,5 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 4e5cd8ae] Auto-update from Vault
+ 1 file changed, 12 insertions(+), 6 deletions(-)
