@@ -20909,25 +20909,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main e8f005ce] Auto-update from Vault
  1 file changed, 7 insertions(+), 5 deletions(-)
-but expected 3cce0d86a054fd950925ce1acae426d187ef98bd)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at e8f005ce1ee0ce3ae254069b66be50191828c1c2 but expected 1c2e29f41d45fc135fd8fb3ee22f4ca16e61e341)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: confused by unstable object source data for 0514856d0803f0dc7387c8c5230437cf5e61a617
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Everything up-to-date
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./.git/refs/remotes/origin/ CREATE main.lock
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -20935,6 +20922,14 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+move the file manually to continue.
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -21963,6 +21958,14 @@ Watches established.
  1 file changed, 9 insertions(+), 2 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 1c2e29f41d45fc135fd8fb3ee22f4ca16e61e341 but expected c83005b428332df9de734eb94998785d60da7a3c)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main 7ebf83b1] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at e8f005ce1ee0ce3ae254069b66be50191828c1c2 but expected 1c2e29f41d45fc135fd8fb3ee22f4ca16e61e341)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
