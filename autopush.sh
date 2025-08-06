@@ -64,3 +64,30 @@ while true; do
 
     sleep 30
 done
+#!/bin/bash
+# ================================
+# Gregore's Heartbeat – Auto Push
+# ================================
+
+# Change to your Vault directory
+cd "$HOME/000GAOS" || exit 1
+
+while true; do
+    TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
+    echo "$TIMESTAMP – Heartbeat"
+
+    # Stage all changes
+    git add -A
+
+    # Commit with timestamp
+    git commit -m "Auto-update from Vault – $TIMESTAMP" >/dev/null 2>&1
+
+    # Pull & rebase to avoid conflicts
+    git pull --rebase
+
+    # Push to remote
+    git push
+
+    # Wait 30 seconds before next beat
+    sleep 30
+done
