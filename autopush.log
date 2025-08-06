@@ -26573,22 +26573,20 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-tumnIscariot/000GAOS.git
-   bdc59a3e..d04b3181  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main b70f7078] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at b70f70780e71de2a0ebcea2d538fca2c61045074 but expected 5f56fb48155604fc96e216763b0e962ff3715cfe)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f8562efea19b58fefde91ef06b710eeade1de6ea but expected 68cc6780d43a108abc5ccaa780d3401f38ec3191)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/objects/ab/ CREATE tmp_obj_wfnZNq
-[main d33993c5] Auto-update from Vault
- 1 file changed, 2 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
+./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Iscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 0489cf1cfff42e04ffe40c568e602ccb12844ec7 but expected c0c8c2277c3e1b1492c082f99bb16ef452fe0f9d)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -28127,3 +28125,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main aa0ed413] Auto-update from Vault
+ 1 file changed, 24 insertions(+), 19 deletions(-)
