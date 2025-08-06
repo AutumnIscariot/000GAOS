@@ -10054,17 +10054,18 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/4e/ MODIFY tmp_obj_dbEvSz
-es
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 088d2bb5c85270bbcb382ac85f01a85aba45328f but expected 6794532ad750991f053c1ddecf8d06dd5d02e903)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at d2c4009e95cfba548741998e1faacb80f4473952 but expected baab9051a68290fa54706ea1a287df45676b790c)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main c667f9a2] Auto-update from Vault
+n c667f9a2] Auto-update from Vault
  1 file changed, 9 insertions(+), 4 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 070589fac313097e086fadef1bbbce7589bf691c but expected e4260439e7bd6d14b63f83bb60145cc2b582864e)
@@ -10759,6 +10760,13 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at baab9051a68290fa54706ea1a287df45676b790c but expected 890e5350256967bbbe76d340b9ddd9ad4bd31b1d)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main d2c4009e] Auto-update from Vault
+ 1 file changed, 21 insertions(+), 9 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   baab9051..d2c4009e  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
