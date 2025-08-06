@@ -8605,16 +8605,13 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-[main 0ce0564f] Auto-update from Vault
- 1 file changed, 9 insertions(+), 2 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   4c9de58f..0ce0564f  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f4aca24ddb27e41be899b0041205ac4a48fdda27 but expected f1283bb97cbd5b04d85b210f1aadf42c887bf9dd)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+re: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 24304921] Auto-update from Vault
@@ -9048,3 +9045,19 @@ Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: confused by unstable object source data for c940c9a649d82333e9d3181fd06c8d15b2621617
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f4aca24ddb27e41be899b0041205ac4a48fdda27 but expected f1283bb97cbd5b04d85b210f1aadf42c887bf9dd)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
