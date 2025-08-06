@@ -18911,12 +18911,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main dcb10ec6] Auto-update from Vault
  1 file changed, 4 insertions(+), 2 deletions(-)
-letions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   17b393d8..dbc7b00d  main -> main
+   914f8911..dcb10ec6  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+topush.log
 [main 10153bea] Auto-update from Vault
  1 file changed, 8 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
@@ -19748,3 +19748,22 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    c7ee67da..914f8911  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/07/ MODIFY tmp_obj_YL1CeP
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
