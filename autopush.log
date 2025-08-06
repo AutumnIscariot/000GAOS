@@ -20160,17 +20160,13 @@ Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
-   575013d5..3db33353  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 3bd1b1a7fe18c809e583160a0a9b9d8cc4cc96e8 but expected 2f7c1d7ef814e06707406f28a740cd64c86d0205)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 4f4bb7fd] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+/000GAOS.git
    3db33353..4f4bb7fd  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -21079,3 +21075,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 2c1ed7bc] Auto-update from Vault
+ 1 file changed, 11 insertions(+), 3 deletions(-)
