@@ -213,7 +213,21 @@ no changes added to[main 91c966f] Auto-update from Vault
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is atSetting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-sh some refs to 'github.com:AutumnIscariot/000GAOS.git'
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added toTo github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at e4cb18b30ed942eedf64ddc9ab94a29e3b10893e but expected 91c966ff082f35fc7ee9387d995be87bfa81692a)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+e!
 Watches established.
 ./ MODIFY autopush.log
