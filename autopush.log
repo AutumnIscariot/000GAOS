@@ -7483,13 +7483,6 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-ile changed, 8 insertions(+), 7 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   5e4b009..7afde5d  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-fatal: confused by unstable object source data for 80c5efc4a43d866549881b0b3de6990f8810d7ba
 On branch main
 Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
@@ -7501,8 +7494,12 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
-   7afde5d..1d9fb31  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fc4d3b77b073a6955c27ac2346e70ffa45241a8d but expected a9d96c0038604b38b737c705de1097f4c553c79d)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+etting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: confused by unstable object source data for 208807e20c4ab4643bc97d6e79a3a58f369eab3b
@@ -7702,6 +7699,20 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
    5de3f78..a9d96c0  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main fc4d3b7] Auto-update from Vault
+ 1 file changed, 15 insertions(+), 17 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   a9d96c0..fc4d3b7  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
