@@ -12327,8 +12327,9 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 27c4846587fa3e0b09d8220244dda61583c04584 but expected 361c0d45160c821bf8293de8fe925ead63e6f097)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-anged, 7 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+Watches established.
+./.git/objects/c6/ MODIFY tmp_obj_MGyn27
+ariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 661d2a5ce70590587b9a4c398b3cff595ac9925d but expected 60cbe07cae8bcdd0ff43fcbccf6f4fb91c36093e)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -12848,3 +12849,13 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/7c/ CREATE tmp_obj_BuOogU
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
