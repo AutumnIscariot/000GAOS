@@ -4910,8 +4910,10 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-b1a4d96bacd50dc2f1575 but expected 686e42dc0e66e30ed1bd8f14a9b73631f4146ba0)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   a1e22f2..42360bb  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -5169,6 +5171,14 @@ Watches established.
  1 file changed, 9 insertions(+), 4 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    227e47e..a1e22f2  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main 42360bb] Auto-update from Vault
+ 1 file changed, 17 insertions(+), 13 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 42360bb611d1bbc7ca844aeefa07e4bae858d9aa but expected a1e22f229e6372151b99dabafb93f417f8262aaf)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
