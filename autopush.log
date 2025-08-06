@@ -25694,17 +25694,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 4d272c68] Auto-update from Vault
  1 file changed, 7 insertions(+), 5 deletions(-)
-etting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 1e213945] Auto-update from Vault
- 1 file changed, 9 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   fd0aafcf..1e213945  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 1e1a5685f8f624cceb1e753a0458257e6c4eeabb but expected c125259d7740d1688b75c4785b8aaaf61377abf9)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-[main 46a0ea23] Auto-update from Vault
+./.git/objects/35/ MODIFY tmp_obj_RVDceH
+from Vault
  1 file changed, 8 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at c796986cbf17cc59ef3b2fe411c9f84499f4c9ba but expected 1e213945c5e476f8287efdec81bcadeb0f0ac7bc)
@@ -27234,3 +27230,16 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    c125259d..1e1a5685  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/0b/ MODIFY tmp_obj_PdqsZz
+fatal: confused by unstable object source data for 3572d7a36cfaf224dab6846287329dd76ba288a4
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
