@@ -47,3 +47,5 @@ to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
 /data/data/com.termux/files/home/000GAOS/autopush.sh: 2: /data/data/com.termux/files/usr/bin/inotifywait#!/bin/bashecho: not found
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/84/ CREATE tmp_obj_oP6raL
