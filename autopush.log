@@ -13655,11 +13655,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 1c2dc87c] Auto-update from Vault
  1 file changed, 6 insertions(+), 5 deletions(-)
- take a while!
+To github.com:AutumnIscariot/000GAOS.git
+   3ec00093..1c2dc87c  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: confused by unstable object source data for 22e9ae3465c16b02a572dc2dfe41025de916792c
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+rmux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
@@ -14043,3 +14044,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/2f/ CREATE tmp_obj_aBmn9B
+[main 5e5122c7] Auto-update from Vault
+ 1 file changed, 2 insertions(+)
