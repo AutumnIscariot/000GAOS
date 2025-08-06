@@ -2255,20 +2255,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/fb/ CREATE tmp_obj_uSJGDR
-nce -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main d99d5ff] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
+[main 64f1760] Auto-update from Vault
+ 1 file changed, 13 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   ad0e346..d99d5ff  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 80b6836681ec175dd02d3d3591371dc74793bf2e but expected 149196778c6c30e7c67b21fa5253bc52b8f376be)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 14aeda7] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 14aeda7b968b95a9bf09b691255d8c82735048b7 but expected d99d5ff8aeb1bb8fabfdeb97a13bd9a3c751a312)
+! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 14aeda7b968b95a9bf09b691255d8c82735048b7 but expected d99d5ff8aeb1bb8fabfdeb97a13bd9a3c751a312)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -2518,3 +2513,9 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 80b6836681ec175dd02d3d3591371dc74793bf2e but expected 149196778c6c30e7c67b21fa5253bc52b8f376be)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
