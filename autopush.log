@@ -10369,17 +10369,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 540d1985] Auto-update from Vault
  1 file changed, 10 insertions(+), 7 deletions(-)
-es established.
-./ MODIFY autopush.log
-[main 57066348] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   63eb5af3..57066348  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at d74b860fb2105277ad38595c857a46e835bfe9d3 but expected a525fafe89d8f87341ea5a91aa968ec9ff9c918a)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main ba412bc8] Auto-update from Vault
- 1 file changed, 11 insertions(+), 6 deletions(-)
+-)
 To github.com:AutumnIscariot/000GAOS.git
    102997c5..ba412bc8  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -11097,3 +11093,22 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at d74b860fb2105277ad38595c857a46e835bfe9d3 but expected a525fafe89d8f87341ea5a91aa968ec9ff9c918a)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
