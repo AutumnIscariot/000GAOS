@@ -24888,9 +24888,9 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/55/ CREATE tmp_obj_BMJTEL
-me/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
+[main 4a30c085] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+is repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
@@ -26318,3 +26318,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main 27b8f70a] Auto-update from Vault
  1 file changed, 9 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   ac63531c..27b8f70a  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
