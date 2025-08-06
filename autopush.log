@@ -6606,17 +6606,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 4deaf93] Auto-update from Vault
  1 file changed, 5 insertions(+), 7 deletions(-)
-may take a while!
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 34b6e41b6cf148482e233248e0f1eaffdfa551de but expected 5757cb7a7a2b09462c2b5ddbe73a6e8de3a8219c)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: confused by unstable object source data for 7ed1428ef6b22c0de508ea40c7779ae39a7e6e0c
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
+changes in working directory)
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
@@ -6921,3 +6917,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main fe0ace6] Auto-update from Vault
+ 1 file changed, 5 insertions(+)
