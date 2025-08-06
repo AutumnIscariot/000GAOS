@@ -7684,18 +7684,20 @@ Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-letions(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 1c5c3d20b7c22cc24b4655f82644e3379c69f1cb but expected ec0c1c1a1656b1afc7906548536f4dfde21a73b9)
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c249812ba5c9cb7e7e7880d48a45cd5cf646c695 but expected 4fef2f58ac4c91aa6f0eaf49d035e7a89113705d)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main b36da0a] Auto-update from Vault
- 1 file changed, 11 insertions(+), 4 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fc5038cec013a8b1e1520fa141ee5fd70baf72eb but expected 1c5c3d20b7c22cc24b4655f82644e3379c69f1cb)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+00GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -7956,3 +7958,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 2311e00] Auto-update from Vault
+ 1 file changed, 11 insertions(+), 5 deletions(-)
