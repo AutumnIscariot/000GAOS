@@ -299,10 +299,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-ed.
-./.git/objects/56/ CREATE tmp_obj_Ni0eCc
-[main 8526e14] Auto-update from Vault
- 1 file changed, 2 insertions(+)
+[main db8dc04] Auto-update from Vault
+ 1 file changed, 21 insertions(+), 2 deletions(-)
+le changed, 2 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
    37668c1..8526e14  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -325,3 +324,9 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 6fb57b9cfe5bcf35b396e69bfc0638767916abb9 but expected b72a489ba6bcc5c2394c4e84b718f2cfd53079b2)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
