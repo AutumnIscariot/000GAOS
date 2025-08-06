@@ -6,6 +6,11 @@ HEARTBEAT_TOGGLE="$HOME/.heartbeat_enabled"
 while true; do
     # Stop mid-loop if toggle removed
     if [ ! -f "$HEARTBEAT_TOGGLE" ]; then
+if [ -f "$HOME/.vault_lock" ]; then
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - 🔒 Vault locked. Skipping push."
+    sleep 5
+    continue
+  fi
         echo "$(date '+%Y-%m-%d %H:%M:%S') - 💔 Heartbeat" >> "$HOME/000GAOS/autopush.log"
     fi
 
