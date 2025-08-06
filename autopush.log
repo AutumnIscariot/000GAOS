@@ -9608,21 +9608,22 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
- commit, working tree clean
+[main b45d9255] Auto-update from Vault
+ 1 file changed, 23 insertions(+), 7 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 46d3f3ee1371375d1ef175c6cc310c400cfd2659 but expected b4679c61078ce18ef57418068fe6977face92ff7)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at b45d925563ad336c0507e118e2f0d45536cf6756 but expected 1a1fb8a4f123ec4c5ee75004c8db47c6f9c769f3)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
-nothing to commit, working tree clean
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at cfe0f33169c5f9285e67ef7da557d3d03d052ba5 but expected c766b929d18db3b3eb4c869187218396a28c7bb0)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+AOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -10325,6 +10326,16 @@ remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 1a1fb8a4f123ec4c5ee75004c8db47c6f9c769f3 but expected c87afad9d9ef833d97f956e5c70d7aebe336c6b4)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To github.com:AutumnIscariot/000GAOS.git
+   1a1fb8a4..b45d9255  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
