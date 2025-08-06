@@ -1513,8 +1513,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 0c2857a] Auto-update from Vault
  1 file changed, 17 insertions(+), 3 deletions(-)
-mote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fa87ca2e504f1a838d9654f39497cd32e7fdda52 but expected 3ac399f2a55ce5ef63a6f914821d1d9eeab7d656)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   fc95f8c..0c2857a  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+e refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -1807,3 +1811,5 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 2948ae2] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 3 deletions(-)
