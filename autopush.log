@@ -19008,10 +19008,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main a1e7595f] Auto-update from Vault
  1 file changed, 22 insertions(+), 5 deletions(-)
-a/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
+To github.com:AutumnIscariot/000GAOS.git
+   2675a24a..a1e7595f  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+esses
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
@@ -19845,3 +19847,8 @@ Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
