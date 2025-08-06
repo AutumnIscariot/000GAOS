@@ -6857,12 +6857,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 08d7931] Auto-update from Vault
  1 file changed, 14 insertions(+), 11 deletions(-)
-lt
- 1 file changed, 5 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
-   5757cb7..34b6e41  main -> main
+   8b02e5b..08d7931  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
+./ MODIFY autopush.log
+established.
 ./ MODIFY autopush.log
 [main fe0ace6] Auto-update from Vault
  1 file changed, 5 insertions(+)
@@ -7124,3 +7124,12 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/refs/heads/ CREATE main.lock
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 08d79316212a10dc59079c40fdeb71df53fad968 but expected 8b02e5bc83aa551abd6eee5eec470e3ac1b46fdf)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
