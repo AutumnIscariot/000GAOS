@@ -10321,17 +10321,13 @@ Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-file changed, 8 insertions(+), 4 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   b6a8888b..384e6941  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 2f0883669d6f60f56f71c01cf581856043f7ebdc but expected ee3cb1576d0af1162a7af136a95e2372511c1ed9)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main c87afad9] Auto-update from Vault
- 1 file changed, 9 insertions(+), 7 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   384e6941..c87afad9  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+tting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
@@ -11051,3 +11047,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 417d4f3d] Auto-update from Vault
+ 1 file changed, 11 insertions(+), 5 deletions(-)
