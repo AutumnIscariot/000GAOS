@@ -9114,9 +9114,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 839a8141] Auto-update from Vault
  1 file changed, 7 insertions(+), 5 deletions(-)
-in': is at f4aca24ddb27e41be899b0041205ac4a48fdda27 but expected f1283bb97cbd5b04d85b210f1aadf42c887bf9dd)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   39184a83..839a8141  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
