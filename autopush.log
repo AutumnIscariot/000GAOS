@@ -3518,16 +3518,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 0aab2ee] Auto-update from Vault
  1 file changed, 5 insertions(+), 3 deletions(-)
-   e8b0382..26a39b4  main -> main
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 063975c00567ac93ee34f839032c5d681a7b2946 but expected a89d94172706a746762f7e998d4a021ad65b3d1d)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main c06b144] Auto-update from Vault
- 1 file changed, 8 insertions(+), 4 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   8d24044..c06b144  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
+
 ./ MODIFY autopush.log
 On branch main
 Your branch is ahead of 'origin/main' by 2 commits.
