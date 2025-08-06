@@ -22291,14 +22291,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 087d64c1] Auto-update from Vault
  1 file changed, 9 insertions(+), 2 deletions(-)
-ing up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 5a49363e] Auto-update from Vault
- 1 file changed, 9 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 0b6194c8518c47aa5f63800aa242a1c1feb65aee but expected ec16c836427d568dce79d9a37059a9d58d18d644)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 0ff4206305a6e404eb48f3d68d5af066ec1cb307 but expected 71c1e8ac980e145f3d0ee8b63df1a3f38937329b)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/68/ CREATE tmp_obj_3sq3It
+iled to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -23384,3 +23383,4 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: confused by unstable object source data for 6810e3b7c95c21cd4880bfbe9b27f50479fd35dd
