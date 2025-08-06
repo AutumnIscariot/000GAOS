@@ -7180,8 +7180,9 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    d18b6ec..ad8e318  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+Watches established.
+./.git/objects/6f/ CREATE tmp_obj_K7I4uN
+tumnIscariot/000GAOS.git
    105e4a6..f0c1ee2  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
