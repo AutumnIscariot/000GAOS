@@ -15,7 +15,7 @@ while true; do
   # Stop if vault is locked
   if [ -f "$VAULT_LOCK" ]; then
     echo "$(date '+%Y-%m-%d %H:%M:%S') - 🔒 Vault locked, skipping commit..." >> "$LOGFILE"
-    sleep 5
+    sleep 1200
     continue
   fi
 
