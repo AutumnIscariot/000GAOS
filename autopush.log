@@ -22714,11 +22714,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main d80812b5] Auto-update from Vault
  1 file changed, 22 insertions(+), 2 deletions(-)
- File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
+To github.com:AutumnIscariot/000GAOS.git
+   e1521dc0..d80812b5  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
@@ -23896,3 +23897,12 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main bfb593c2] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 2 deletions(-)
