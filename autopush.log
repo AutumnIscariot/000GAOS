@@ -2467,13 +2467,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 8314c87] Auto-update from Vault
  1 file changed, 4 insertions(+), 3 deletions(-)
-ry again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-[main cddd69d] Auto-update from Vault
- 1 file changed, 9 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at cddd69d423e2a34826fb3f6c7c2c4efa937f80d2 but expected 932b882879e5b432148b821998d7a77c387fbf2d)
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5602811bd5ba86986a632af144091a37977d981e but expected da69cbfba563ac97fdbcc89f03b07bc6c5317e67)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+821998d7a77c387fbf2d)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -2699,3 +2699,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/e1/ CREATE tmp_obj_CqHAQa
+[main cf7dc57] Auto-update from Vault
+ 1 file changed, 5 insertions(+), 6 deletions(-)
