@@ -5313,15 +5313,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/7c/ CREATE tmp_obj_GxaUBS
-umnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at feefae6fb04c00151ba9f95d4d5d1167c033272c but expected f0388ec604f1929ff6db97e4787e511964759b67)
+[main c870c0f] Auto-update from Vault
+ 1 file changed, 21 insertions(+), 6 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 2b826998f36154d81d61749d8185a1840a164f81 but expected c7c1e4092a969ea6a960199cbf6e99be461a3c90)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
+ git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
@@ -5567,3 +5567,9 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 2b826998f36154d81d61749d8185a1840a164f81 but expected c7c1e4092a969ea6a960199cbf6e99be461a3c90)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
