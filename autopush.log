@@ -3793,8 +3793,9 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 0d9daa848111b8c75d06cfd778ea65382da1a48c but expected e1f84f26c4cba041a1f05aba37b62d6fa05b4606)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-h is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
+Watches established.
+./.git/objects/a6/ CREATE tmp_obj_RgddhI
+publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
