@@ -14574,9 +14574,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 91455196] Auto-update from Vault
  1 file changed, 7 insertions(+), 5 deletions(-)
-ain': is at 0eb06f621e82030285961de117c03edc2878897f but expected d410874ae77f27e03c006277a9ce5b3fe3ec662c)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   6097c3fa..91455196  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+ watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/a3/ MODIFY tmp_obj_TWMmoV
 [main 73332fac] Auto-update from Vault
@@ -14962,3 +14965,22 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 6097c3fa360eb42dd0367f25c9788e26d3db5bf0 but expected 9a78b13079e2fb56f0a91067e4cc57c4aed51019)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/e7/ CREATE tmp_obj_79Hjdt
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
