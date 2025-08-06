@@ -6501,16 +6501,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 5870fb1] Auto-update from Vault
  1 file changed, 9 insertions(+), 9 deletions(-)
-n. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
-   7093c3f..92dbbe8  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at ecd7d57f62067a864af706e5c42533b4564605ee but expected 3f925360e2f5f135da0a45fe8b5abb39f560ab0d)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: confused by unstable object source data for 0ce57a4bd5d8ff0b243eac63c428cb48c2a49011
-On branch main
+ branch main
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
