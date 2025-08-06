@@ -26554,26 +26554,26 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 422707866808b15b2c53617142cd1b3d4abeafc1 but expected 871e9941852d5db6547b539d7ada9378e12443c6)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-p watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/objects/b0/ CREATE tmp_obj_pailsB
-[main 98025d59] Auto-update from Vault
- 1 file changed, 9 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   0bb8edd0..98025d59  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./.git/objects/98/ CREATE tmp_obj_WJYPrk
-[main 8cc9e505] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   a683dd0c..8cc9e505  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./.git/objects/a5/ CREATE tmp_obj_CCxqC6
-[main d04b3181] Auto-update from Vault
- 1 file changed, 2 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
+./.git/objects/c1/ CREATE tmp_obj_sQtQ2J
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+tumnIscariot/000GAOS.git
    bdc59a3e..d04b3181  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -28122,3 +28122,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main 68cc6780] Auto-update from Vault
  1 file changed, 9 insertions(+), 4 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   42270786..68cc6780  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
