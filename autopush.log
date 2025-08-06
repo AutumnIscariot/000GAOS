@@ -23906,15 +23906,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 3b5bf93d] Auto-update from Vault
  1 file changed, 9 insertions(+), 11 deletions(-)
-.com:AutumnIscariot/000GAOS.git
-   a5a0e5e0..e1521dc0  main -> main
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 66c25b2d1ee912f6f6f66a07ec8f2b64066ce0ea but expected ed7f701dc6436564854f88746179406cf86e8026)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
+esses
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
@@ -25235,3 +25233,22 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    ed7f701d..66c25b2d  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/fb/ CREATE tmp_obj_Nrwbdb
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
