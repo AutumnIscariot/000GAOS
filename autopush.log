@@ -5396,17 +5396,18 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-emote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 42f1cc2a079e968f9d503d102d11e31f01bdf06a but expected 02029b2c0ad7e0e8657df0d552bb2052375e5fbc)
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 26b7fc04850a2c11df72ad9cbb2f21f279c3e35e but expected d6c1d519693936b2a1e7a6ab307f9ddeac9e6d3a)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: confused by unstable object source data for 054ad3e184dd2ff32f842d38d57805837b002b31
-On branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+ <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   autopush.log
 
@@ -5633,6 +5634,14 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
    8beb192..d6c1d51  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main 26b7fc0] Auto-update from Vault
+ 1 file changed, 20 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 26b7fc04850a2c11df72ad9cbb2f21f279c3e35e but expected d6c1d519693936b2a1e7a6ab307f9ddeac9e6d3a)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
