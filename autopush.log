@@ -3271,9 +3271,9 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-ermux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
+[main 560e79a] Auto-update from Vault
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+e running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
@@ -3611,3 +3611,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main 589d2d0] Auto-update from Vault
  1 file changed, 7 insertions(+), 4 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   b57de0a..589d2d0  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
