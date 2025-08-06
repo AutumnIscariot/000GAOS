@@ -22707,11 +22707,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main a5a0e5e0] Auto-update from Vault
  1 file changed, 7 insertions(+), 3 deletions(-)
-1c31b5)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   b5eafdcc..a5a0e5e0  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+h.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -23870,3 +23871,22 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    c79e01ec..b5eafdcc  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/df/ CREATE tmp_obj_Q4X50d
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
