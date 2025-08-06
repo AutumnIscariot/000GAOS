@@ -25165,17 +25165,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main f5254f3e] Auto-update from Vault
  1 file changed, 6 insertions(+), 4 deletions(-)
-ODIFY autopush.log
-[main e9babfef] Auto-update from Vault
- 1 file changed, 14 insertions(+), 4 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   44cd89f3..e9babfef  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 45b519578e47564d115d7a59da63653ee1347c14 but expected 8a7a2359154c36e8846d269b8eba43bbfb6505b1)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 11cae0b5] Auto-update from Vault
- 1 file changed, 8 insertions(+), 1 deletion(-)
-To github.com:AutumnIscariot/000GAOS.git
+mnIscariot/000GAOS.git
    e9babfef..11cae0b5  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -26637,3 +26633,22 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    8a7a2359..45b51957  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/3c/ CREATE tmp_obj_TunvJv
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
