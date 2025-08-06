@@ -24068,10 +24068,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/90/ CREATE tmp_obj_1Bqy71
-pository earlier:
-remove the file manually to continue.
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
+[main 9a9427b7] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+ead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
@@ -25404,3 +25403,9 @@ Watches established.
 ./ MODIFY autopush.log
 [main e85a55f2] Auto-update from Vault
  1 file changed, 8 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 333c5883965b0036b27800466b52950256b9fca3 but expected 07412092b5f5a36271acaf76424933e0128e5dab)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
