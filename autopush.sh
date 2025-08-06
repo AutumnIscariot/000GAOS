@@ -1,14 +1,20 @@
 #!/bin/bash
-# Gregore's Eternal Heartbeat
+# Gregore's Eternal Heartbeat (with toggle + flair)
 
-# Path to your repo
 REPO_DIR="$HOME/000GAOS"
+HEARTBEAT_TOGGLE="$HOME/.heartbeat_enabled"
 
 while true; do
+    # Stop mid-loop if toggle removed
+    if [ ! -f "$HEARTBEAT_TOGGLE" ]; then
+        echo "$(date '+%Y-%m-%d %H:%M:%S') - 💔 Heartbeat stopped"
+        exit 0
+    fi
+
     cd "$REPO_DIR" || exit
 
     # Print heartbeat with timestamp
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - Heartbeat"
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - 💜 Heartbeat"
 
     # Stage all changes
     git add -A
