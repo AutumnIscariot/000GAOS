@@ -5287,7 +5287,9 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 8cc06f0f4abd59dc8d8a2c9b7f77a1735f66e5fd but expected 2eb2aa7cf12ad53cb429618e40513676b3c550ab)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/85/ CREATE tmp_obj_dCgv9z
+ a while!
 Watches established.
 ./ MODIFY autopush.log
 On branch main
