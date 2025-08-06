@@ -13239,24 +13239,20 @@ Watches established.
 ./.git/objects/5f/ CREATE tmp_obj_jidokr
 [main 03ec6139] Auto-update from Vault
  1 file changed, 6 insertions(+), 8 deletions(-)
-sh your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
-   6c504fef..aabb7889  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 95f31a05793c9931451c3c6863901e924744efc7 but expected 3f8a01292db064a284a66db9fe30598b74682dbc)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 6696c6a1] Auto-update from Vault
- 1 file changed, 16 insertions(+), 10 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 6696c6a1c1ee3f12ef0883816a318841a63a44a9 but expected aabb7889fea1b45aef930180592c880fc957dd33)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+ror: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -13619,3 +13615,5 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 02af7d6c] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 3 deletions(-)
