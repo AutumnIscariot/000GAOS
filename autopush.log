@@ -4864,14 +4864,13 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-d.
-./.git/objects/da/ CREATE tmp_obj_aHFmHx
-[main 49abe7d] Auto-update from Vault
- 1 file changed, 2 insertions(+)
+[main f9a1db7] Auto-update from Vault
+ 1 file changed, 14 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at b01f549516a3565dbaaae1f7b389538b295066d6 but expected d377c34feba4c876f6ce193ae264a100dbbae777)
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at f9a1db78a6c8ecd9e6bebdea216e11205671018c but expected b957d661b492af7440605aad1f1b978f75e21964)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+en, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
@@ -5121,3 +5120,20 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at b957d661b492af7440605aad1f1b978f75e21964 but expected 346ed814e6c4aea02e26fbc98e38cd345bc8e773)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/56/ CREATE tmp_obj_E2waWO
+fatal: confused by unstable object source data for 04660d6d83f3dde04f5038b8dfac3dec871b0f00
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+   b957d66..f9a1db7  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
