@@ -26366,19 +26366,16 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
- autopush.log
-[main bcde7acc] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   1fec0b24..bcde7acc  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 5512b2f8] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   14d67bd5..5512b2f8  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main a07737d0] Auto-update from Vault
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+ting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: confused by unstable object source data for 639b985ea26566445d9a352391397de371f07543
@@ -27947,3 +27944,9 @@ Watches established.
 ./ MODIFY autopush.log
 [main 02a7d54d] Auto-update from Vault
  1 file changed, 8 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 8818b957f51340e8359e31f4db88a6dec86f1632 but expected a63b6141b73efcea73cdd5b4e8abb2048dceaded)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
