@@ -3442,7 +3442,9 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    479c718..9d62062  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-d] main -> main (cannot lock ref 'refs/heads/main': is at cf8a85958671e6206d0b0906fe73f7bd6bb711e9 but expected bd32d7676fa4311a077207340df3821695e660d4)
+Watches established.
+./.git/objects/5b/ CREATE tmp_obj_gkBIyN
+85958671e6206d0b0906fe73f7bd6bb711e9 but expected bd32d7676fa4311a077207340df3821695e660d4)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
