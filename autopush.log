@@ -25359,18 +25359,13 @@ Watches established.
 ./.git/objects/92/ MODIFY tmp_obj_dEbS8K
 [main f05e71de] Auto-update from Vault
  1 file changed, 33 insertions(+), 6 deletions(-)
-ocess
-may have crashed in this repository earlier:
-remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
-   414869b4..d8485304  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f05e71de762f08ce6fe388ee5ef7ce4526b6393c but expected a44c099f867787d117e24dea0e4b412fe3b55d6b)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-[main fe8b8c2e] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   bad1a897..fe8b8c2e  main -> main
+./.git/objects/d1/ MODIFY tmp_obj_ifl6hK
+fe8b8c2e  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -26873,3 +26868,16 @@ no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
    a44c099f..f05e71de  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/f9/ CREATE tmp_obj_pViX8U
+fatal: confused by unstable object source data for d152e03b07eb90e9b108112f752522970ce9260f
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
