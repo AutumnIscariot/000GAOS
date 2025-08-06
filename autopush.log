@@ -23803,11 +23803,11 @@ Watches established.
 ./.git/objects/33/ CREATE tmp_obj_1jIW7s
 [main 681b083b] Auto-update from Vault
  1 file changed, 7 insertions(+), 5 deletions(-)
-82ceedd0a122d8e34754f79c19fac088624 but expected 133e1309ebf72ae01c9f72cbffc192217ebc21b0)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   86e23383..681b083b  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/objects/4c/ CREATE tmp_obj_xk3Bjx
+./.git/objects/4c/ CREATE tmp_obj_8gU8f6
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -23816,13 +23816,16 @@ are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
+Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+dified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
@@ -25114,6 +25117,13 @@ Watches established.
  1 file changed, 8 insertions(+), 2 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    8b1208b6..86e23383  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main 44cd89f3] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   681b083b..44cd89f3  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
