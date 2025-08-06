@@ -21045,8 +21045,9 @@ nothing to commit, working tree clean
 To github.com:AutumnIscariot/000GAOS.git
    f2149788..71dd2d0e  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
- fails, a git process
-may have crashed in this repository earlier:
+Watches established.
+./.git/objects/b3/ CREATE tmp_obj_D805Er
+ier:
 remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 23d4d14f8b267d65839b76f78f56a979ede2ea45 but expected 2feb233f01aa0767164b3fa7235dc6e6028b96cf)
@@ -22065,3 +22066,6 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 71dd2d0e7b67f2a9951e2a4c0c23e6bb838642a2 but expected f2149788be506c8c8af1f860f0c7afcb7bde95da)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/b3/ MODIFY tmp_obj_D805Er
