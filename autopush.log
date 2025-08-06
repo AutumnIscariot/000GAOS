@@ -14301,28 +14301,30 @@ Watches established.
 ./.git/objects/02/ CREATE tmp_obj_i3Ov7v
 [main 08070398] Auto-update from Vault
  1 file changed, 8 insertions(+), 6 deletions(-)
-are: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 454fd639] Auto-update from Vault
- 1 file changed, 7 insertions(+), 2 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   b75f7c80..454fd639  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./.git/objects/ce/ CREATE tmp_obj_hFJCaC
-[main 370346cd] Auto-update from Vault
- 1 file changed, 2 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 4ae7ca32fe213f485c55fb59ed54f58b6697acdf but expected da38086ff9a5df8f31250e829e8ed12d791f5201)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 03011d835fcbb4df4b4041fc75a429601ff74d5b but expected c2f5fa47d14534aa09b0fd0bf73f9b2cd4a7864a)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/objects/9d/ CREATE tmp_obj_lunyfD
-[main 06ce321d] Auto-update from Vault
- 1 file changed, 2 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at b40eb9c4e5a449b8fb0e19a64c4fe76eb3a7332f but expected 03c05dd9c73bed223a5a54f6cbaecb0ba8e3753d)
+./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+6cbaecb0ba8e3753d)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -14712,6 +14714,13 @@ Watches established.
  1 file changed, 8 insertions(+), 4 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    c2f5fa47..03011d83  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main 1c9fd4b1] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   03011d83..1c9fd4b1  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
