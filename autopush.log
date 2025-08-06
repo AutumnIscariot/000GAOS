@@ -45,38 +45,7 @@ collaborate (see also: git help workflows)
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
-/data/data/com.termux/files/home/000GAOS/autopush.sh: 2: /data/data/com.termux/files/usr/bin/inotifywait#!/bin/bashecho: not found
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./.git/objects/84/ CREATE tmp_obj_oP6raL
-[main 0f4cd42] Auto-update from Vault
- 1 file changed, 2 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a7e3f87f3f0dbbaa07d08a1b768ca2ecf7376ae9 but expected 33d8f55ec82f507a469237010c9664a2fa85ffcd)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 202cfd2760688490b5516aacf694a8fd7dc074d5 but expected a7e3f87f3f0dbbaa07d08a1b768ca2ecf7376ae9)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+autopush.sh: line 2: /data/data/com.termux/files/usr/bin/inotifywait#!/bin/bashecho: No such file or directory
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
