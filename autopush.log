@@ -1569,12 +1569,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main cdeb1a1] Auto-update from Vault
  1 file changed, 8 insertions(+), 5 deletions(-)
-itory earlier:
-remove the file manually to continue.
-[main 57f35fd] Auto-update from Vault
- 1 file changed, 2 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
-   9549a31..57f35fd  main -> main
+   e45e6ac..cdeb1a1  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+-> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
