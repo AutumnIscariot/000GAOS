@@ -2832,3 +2832,7 @@ Watches established.
 ./.git/objects/de/ CREATE tmp_obj_NUh6Qn
 [main b03a41a] Auto-update from Vault
  1 file changed, 2 insertions(+)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 14e19006fec3ef7e4e916c0a3d1b54ecadb2c12b but expected 49b4c54187293e95a9b3e36dda62e0a931dadca9)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
