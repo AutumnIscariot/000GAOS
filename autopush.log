@@ -8065,9 +8065,12 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-6 but expected b9cdfbc79c154acb923507b5ea6bb6c008983a4a)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   b628b0d..8cf4194  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+ake a while!
 Watches established.
 ./.git/objects/61/ CREATE tmp_obj_2wAmGp
 [main c1b5f7f] Auto-update from Vault
@@ -8353,3 +8356,8 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/75/ CREATE tmp_obj_BaEAof
+[main 98f5a3e] Auto-update from Vault
+ 1 file changed, 3 insertions(+)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 8cf4194734d32de99be13d19c41a2c5365c670fb but expected b628b0dd8921954d2f94f13a6df8e27d029282af)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
