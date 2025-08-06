@@ -20854,12 +20854,12 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-iot/000GAOS.git
-   e84f31a5..3c2b4f6b  main -> main
+To github.com:AutumnIscariot/000GAOS.git
+   fe8dad94..cb7b2329  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main e7439be6] Auto-update from Vault
+te from Vault
  1 file changed, 23 insertions(+), 20 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    3c2b4f6b..e7439be6  main -> main
@@ -21903,3 +21903,11 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[main cb7b2329] Auto-update from Vault
+ 1 file changed, 41 insertions(+), 15 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at cb7b2329daf1617d21f170f54aba2bc7a9eab6b0 but expected fe8dad946d5290009e860f4b260b0ef4a793e723)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
