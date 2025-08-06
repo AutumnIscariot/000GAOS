@@ -21887,8 +21887,9 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-'github.com:AutumnIscariot/000GAOS.git'
-Setting up watches.  Beware: since -r was given, this may take a while!
+[main fc76981b] Auto-update from Vault
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+ this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
@@ -22943,3 +22944,9 @@ Watches established.
 ./.git/objects/0c/ CREATE tmp_obj_ntYfFS
 [main 095b9ca9] Auto-update from Vault
  1 file changed, 9 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at d9a406cbee4bb5c6dc7d3d1620e5d4bab0373bda but expected a1b28d9dba77f2b29343412d3b602b599a416ff3)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
