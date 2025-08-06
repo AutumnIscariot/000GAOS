@@ -29533,3 +29533,6 @@ no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f73cb70937df64580b7dc0faf85b59a09e67820b but expected 42661ee8b8aa65e8811dd66c167fbae2442bfc83)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/1a/ MODIFY tmp_obj_Pg2dBj
