@@ -12169,17 +12169,14 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
-[main 6b0ff947] Auto-update from Vault
- 1 file changed, 8 insertions(+), 4 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   595c45c7..6b0ff947  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 6dcacf15] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+thub.com:AutumnIscariot/000GAOS.git
    6b0ff947..6dcacf15  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -12755,3 +12752,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main 0c827170] Auto-update from Vault
  1 file changed, 11 insertions(+), 4 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   142bf6ee..0c827170  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
