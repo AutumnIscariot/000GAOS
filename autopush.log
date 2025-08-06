@@ -2788,17 +2788,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/refs/heads/ CREATE main.lock
-commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
+[main 29d40b5] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 10 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c0c2ee6505f4dc0d7fde0e1da3d82682b8c6ac13 but expected 2a3775af2a646fdc16539d6bd779ef840f503c4e)
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c5c3f4c98e224547a2fce85005e0319bafb882d8 but expected f9ac319f002fdb3d1353512bec93e4e3b04891bd)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+d to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -3055,3 +3053,9 @@ Watches established.
 ./ MODIFY autopush.log
 [main c5c3f4c] Auto-update from Vault
  1 file changed, 30 insertions(+), 10 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at c5c3f4c98e224547a2fce85005e0319bafb882d8 but expected f9ac319f002fdb3d1353512bec93e4e3b04891bd)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
