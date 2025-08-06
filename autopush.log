@@ -8635,11 +8635,12 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-card changes in working directory)
-	modified:   autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
 
-no changes added to commit (use "git add" and/or "git commit -a")
-To github.com:AutumnIscariot/000GAOS.git
+nothing to commit, working tree clean
+t/000GAOS.git
    3f6be0f7..de7e4ef7  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -9081,3 +9082,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main a6a31741] Auto-update from Vault
  1 file changed, 21 insertions(+), 8 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   8e9a45ef..a6a31741  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
