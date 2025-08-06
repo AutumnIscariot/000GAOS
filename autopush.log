@@ -7507,10 +7507,9 @@ nothing to commit, working tree clean
 To github.com:AutumnIscariot/000GAOS.git
    fc4d3b7..931f7d5  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-h your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+Watches established.
+./.git/objects/75/ CREATE tmp_obj_a8CXLP
+git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   autopush.log
 
