@@ -2486,11 +2486,10 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fd099561bdb3097579fa39d0462556522170b037 but expected 1c7a265eb9e7375c8fce0c6e8a00a91b14cfcfd9)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
-watches.  Beware: since -r was given, this may take a while!
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
+./.git/objects/75/ CREATE tmp_obj_IbC1Tn
+ ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
@@ -2709,3 +2708,5 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fd099561bdb3097579fa39d0462556522170b037 but expected 1c7a265eb9e7375c8fce0c6e8a00a91b14cfcfd9)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
