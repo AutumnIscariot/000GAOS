@@ -3586,16 +3586,17 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/70/ CREATE tmp_obj_gbifD5
-was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main f90390d] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
 To github.com:AutumnIscariot/000GAOS.git
-   589d2d0..f90390d  main -> main
+   1347d4f..37a9035  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+opush.log
 [main 7acb666] Auto-update from Vault
  1 file changed, 8 insertions(+), 4 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
@@ -3903,3 +3904,8 @@ Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: confused by unstable object source data for 70b673ff135660e03f30a3f27cc203fc59b42231
+[main 37a9035] Auto-update from Vault
+ 1 file changed, 17 insertions(+), 12 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 37a903508883d5fcf0f8358abdd72eab21ce9e38 but expected 1347d4f54e975aa97755dc00332ffc85de513829)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
