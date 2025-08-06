@@ -449,8 +449,10 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 4034cf95e253062f1ad98ef6449062c8efeff8e1 but expected 7c1fbc910d5b9ebcab4f7b07fd6024d6c2cef8b0)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
-/main': is at 10fe6cc310d3bfb82c451511699eb0c61a80edaf but expected 8d039d25d5c37447de9b68b46cd46b4cc1a2edc5)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/82/ CREATE tmp_obj_LeISHT
+me refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -502,3 +504,13 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
