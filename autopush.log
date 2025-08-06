@@ -2138,17 +2138,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/d0/ CREATE tmp_obj_bBDH32
-, this may take a while!
+[main 7aa550b] Auto-update from Vault
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 7aa550b13ed1fb93639868faa50569da5b74f91f but expected 12bdcfc371d45b4ead7f59c3a36758ef6b2c6d89)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at b264e16af6ff21d81760123fc28b2e078b1749b1 but expected 96f8d6d9eab8089ce8e51c7b43ea4eab536ced2d)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+cariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -2399,6 +2397,17 @@ Watches established.
  1 file changed, 32 insertions(+), 16 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    3527a42..12bdcfc  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 7aa550b13ed1fb93639868faa50569da5b74f91f but expected 12bdcfc371d45b4ead7f59c3a36758ef6b2c6d89)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
