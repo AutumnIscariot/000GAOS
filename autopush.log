@@ -10289,37 +10289,30 @@ Watches established.
 ./ MODIFY autopush.log
 [main 4d31ff3e] Auto-update from Vault
  1 file changed, 7 insertions(+), 5 deletions(-)
-lished.
-./ MODIFY autopush.log
-[main 8428465e] Auto-update from Vault
- 1 file changed, 8 insertions(+), 1 deletion(-)
 To github.com:AutumnIscariot/000GAOS.git
-   b8116307..8428465e  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 4d31ff3e4a1e6998cc25560e7aaf5a3daae0ff19 but expected 825b889ffbf9213fab11974e21c982428f1bfc66)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 49f7a83f] Auto-update from Vault
- 1 file changed, 20 insertions(+), 10 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   8428465e..49f7a83f  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 6c95c23c] Auto-update from Vault
- 1 file changed, 5 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
-   49f7a83f..6c95c23c  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 227c3488] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   6c95c23c..227c3488  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main b6a8888b] Auto-update from Vault
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+] Auto-update from Vault
  1 file changed, 5 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
    227c3488..b6a8888b  main -> main
@@ -11040,6 +11033,13 @@ Watches established.
  1 file changed, 11 insertions(+), 4 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    8fea1b54..825b889f  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main ee3cb157] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   4d31ff3e..ee3cb157  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
