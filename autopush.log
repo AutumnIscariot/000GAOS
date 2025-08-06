@@ -1520,12 +1520,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 3365e4a] Auto-update from Vault
  1 file changed, 8 insertions(+), 2 deletions(-)
- was given, this may take a while!
+To github.com:AutumnIscariot/000GAOS.git
+   2948ae2..3365e4a  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: confused by unstable object source data for 6d3f278df6b196faceb5de7ca9e715e151b96562
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
+branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
@@ -1819,3 +1819,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 5aae5cb] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 2 deletions(-)
