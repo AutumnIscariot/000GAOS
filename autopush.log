@@ -27374,8 +27374,6 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/45/ CREATE tmp_obj_YuFdyl
-hes established.
-./ MODIFY autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -27383,9 +27381,11 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-To github.com:AutumnIscariot/000GAOS.git
-   7ab17c95..464ecf3c  main -> main
+Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 On branch main
@@ -28888,3 +28888,8 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 8917a8ba0d0713e5b7be59dfa56b7146ba2ea74f but expected ab86c55333d0f03d4dd7a1f0be542908b2d58b60)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/45/ MODIFY tmp_obj_YuFdyl
+fatal: confused by unstable object source data for a4d78b170a8d074e98a4bc13a3df96172c316d6f
+[main 4bfa6b61] Auto-update from Vault
+ 1 file changed, 24 insertions(+), 14 deletions(-)
