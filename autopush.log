@@ -3774,16 +3774,11 @@ Watches established.
 ./.git/objects/64/ CREATE tmp_obj_3dRqlG
 [main 0e6b110] Auto-update from Vault
  1 file changed, 3 insertions(+), 1 deletion(-)
-this repository earlier:
-remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
-   3e93ee5..65b4ebd  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 4b1fe3b75373f221f8dc5c33f7836b94d5832608 but expected 34e93724f357c79f93cde8b6c7da1e7ed6110bcd)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 0894a48] Auto-update from Vault
- 1 file changed, 23 insertions(+), 12 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+umnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 0894a480b2e41caf58dd70b919314bb44e10fd03 but expected 65b4ebdb2b5d8e8104f66af224ca6224f7e0e80b)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -4102,3 +4097,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 394b822] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 3 deletions(-)
