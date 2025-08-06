@@ -19292,30 +19292,30 @@ Watches established.
 ./ MODIFY autopush.log
 [main 9d9c8d17] Auto-update from Vault
  1 file changed, 6 insertions(+), 7 deletions(-)
-move the file manually to continue.
-[main 347bfbcb] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   c1a3ad85..347bfbcb  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main b6bf98b6] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   347bfbcb..b6bf98b6  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 6955176e] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 6955176e7961067ac3aa3b6b95839ccecac974e9 but expected 0ffceb61b5eb2e27851fdef356925f81ebfda536)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 1352763f52b77c72e686166043671b9841291e83 but expected ffdbeb0288418c76d5ccaa1e52b96e9d6b8c1314)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+OS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
@@ -20152,6 +20152,13 @@ Watches established.
  1 file changed, 8 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    ffdbeb02..1352763f  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main c03c4017] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   1352763f..c03c4017  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
