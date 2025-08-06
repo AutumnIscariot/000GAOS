@@ -246,14 +246,12 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-xpected e4cb18b30ed942eedf64ddc9ab94a29e3b10893e)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 54c3e47e20ebe7b5ab6edf79905a72fc984afe9b but expected d554e931b0d4e4bc86e1a30b37a21892c3d7de75)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
@@ -263,3 +261,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 4e167a9] Auto-update from Vault
+ 1 file changed, 15 insertions(+), 2 deletions(-)
