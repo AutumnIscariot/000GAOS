@@ -2223,9 +2223,9 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/c1/ CREATE tmp_obj_AUOQfi
-OS.git
-   7d8839d..2aec833  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+[main c928efa] Auto-update from Vault
+ 1 file changed, 14 insertions(+), 4 deletions(-)
+, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 7f208cc] Auto-update from Vault
@@ -2491,3 +2491,9 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 932b882879e5b432148b821998d7a77c387fbf2d but expected ace1c132b6238e624cc1c84a18e192cb3579bcd9)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
