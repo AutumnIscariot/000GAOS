@@ -15281,8 +15281,9 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    3b25e53f..cc2e7d9c  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-hanged, 8 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+Watches established.
+./.git/objects/51/ CREATE tmp_obj_V6KPas
+cariot/000GAOS.git
    314c6a05..ffd31aea  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
