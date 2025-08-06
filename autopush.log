@@ -114,9 +114,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-AutumnIscariot/000GAOS.git
-   f09bdff..a58bda8  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+[main 38c0c8b] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+e: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 8c2e1cf] Auto-update from Vault
@@ -128,3 +128,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main ac8f721] Auto-update from Vault
  1 file changed, 8 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   f828edc..ac8f721  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
