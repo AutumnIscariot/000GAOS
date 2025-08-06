@@ -2405,8 +2405,9 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a08ab4dd757db7691a00cc81b4cb07e76e1bd7c3 but expected 4aceedd384072ed4bdffefd7b75fe58fceca2b1b)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-S.git'
-Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/37/ CREATE tmp_obj_Iuemms
+ay take a while!
 Watches established.
 ./ MODIFY autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
