@@ -25643,16 +25643,13 @@ Watches established.
 ./.git/objects/b4/ MODIFY tmp_obj_qWvZoC
 [main b0008060] Auto-update from Vault
  1 file changed, 7 insertions(+), 6 deletions(-)
-a while!
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 5fa5bfbe2c772cae967c7785b533c18b27ebabe6 but expected 4e21e389737f8b166c11275c147b2c9fb4c5a17c)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/objects/f6/ MODIFY tmp_obj_tYcxWr
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
+./.git/objects/4d/ MODIFY tmp_obj_5SN4xv
+manually to continue.
 On branch main
 Your branch is ahead of 'origin/main' by 4 commits.
   (use "git push" to publish your local commits)
@@ -27195,3 +27192,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 627904a9] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 2 deletions(-)
