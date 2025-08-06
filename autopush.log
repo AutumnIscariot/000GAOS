@@ -16343,15 +16343,13 @@ Watches established.
 ./.git/refs/heads/ CREATE main.lock
 [main 86803610] Auto-update from Vault
  1 file changed, 6 insertions(+), 9 deletions(-)
-o github.com:AutumnIscariot/000GAOS.git
-   feef78a9..4be58712  main -> main
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 056cb42a98c58a544bf7a1ed2cedf6cf395d1b18 but expected a351b17e6f277207b77c68e46c08bc2b53a025b8)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/objects/20/ CREATE tmp_obj_VqqOzI
-[main 4c457b58] Auto-update from Vault
- 1 file changed, 2 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at ffac3e86f01dba6a2e9fc535aa2f95c28c818b4e but expected 0e2e720409f094f0cf32fb1116b100f71a2f2ca7)
+./.git/objects/45/ MODIFY tmp_obj_pNbVcI
+5aa2f95c28c818b4e but expected 0e2e720409f094f0cf32fb1116b100f71a2f2ca7)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -16969,3 +16967,16 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 056cb42a98c58a544bf7a1ed2cedf6cf395d1b18 but expected a351b17e6f277207b77c68e46c08bc2b53a025b8)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/8e/ CREATE tmp_obj_t9fRlR
+fatal: confused by unstable object source data for 45e688466984cf42ec06b7ad173d14220c8173d5
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
