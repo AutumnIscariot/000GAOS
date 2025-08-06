@@ -7812,17 +7812,13 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-tches.  Beware: since -r was given, this may take a while!
-Watches established.
-./.git/objects/61/ CREATE tmp_obj_ZzcPQp
-[main 37ef396] Auto-update from Vault
- 1 file changed, 2 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
-   b1229a8..37ef396  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 8c3b4507e4995dbd363d6ba84cf16bae35f7c053 but expected 65f1ee3b30439f8e4f9d934573014679d0a91d18)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/objects/9b/ CREATE tmp_obj_TE77o3
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+./ MODIFY autopush.log
+al: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
@@ -8093,3 +8089,5 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/f9/ CREATE tmp_obj_Urbr9i
+[main 375f1b4] Auto-update from Vault
+ 1 file changed, 13 insertions(+), 6 deletions(-)
