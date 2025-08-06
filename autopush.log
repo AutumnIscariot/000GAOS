@@ -14097,8 +14097,12 @@ Watches established.
 ./.git/objects/e7/ CREATE tmp_obj_D8kxIL
 [main 3fada890] Auto-update from Vault
  1 file changed, 6 insertions(+), 4 deletions(-)
-t lock ref 'refs/heads/main': is at c0f7a7b92ba0fbf93c59adb88bb7b0ae8a809c67 but expected 541644b773bb3b5e65584a0cb682b15473d4723b)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   4f58e781..3fada890  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
