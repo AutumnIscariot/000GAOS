@@ -14241,14 +14241,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 7bec6d2a] Auto-update from Vault
  1 file changed, 6 insertions(+), 2 deletions(-)
- a while!
+To github.com:AutumnIscariot/000GAOS.git
+   5b8ba9ec..7bec6d2a  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
+king tree clean
 To github.com:AutumnIscariot/000GAOS.git
    0e2893ba..6e0fa16f  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
