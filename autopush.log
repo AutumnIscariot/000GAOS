@@ -25421,13 +25421,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 8b599a2d] Auto-update from Vault
  1 file changed, 5 insertions(+), 3 deletions(-)
-  main -> main (cannot lock ref 'refs/heads/main': is at 70990e44d928aef15ba97c573051cf1c83a5d904 but expected cbc752dceb6c78d24d98f22169c1432ea7870d93)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at e6ab0b2e1c274b441e7f9bb0359e79a6d4e170f1 but expected dc10a21cfd11c72a9c7f61f5deaf03947e6d2bfc)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 8c001055] Auto-update from Vault
- 1 file changed, 9 insertions(+), 3 deletions(-)
+rtions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 08d113b42fc16f8e49f1c165514ed0b2d3e58f3f but expected 70990e44d928aef15ba97c573051cf1c83a5d904)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
@@ -26949,3 +26949,22 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    dc10a21c..e6ab0b2e  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/3d/ CREATE tmp_obj_PFirHF
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
