@@ -7329,12 +7329,14 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-sh.log
-[main 74bf0d9] Auto-update from Vault
- 1 file changed, 9 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 64f926eda35abbae2e1a0818c548ad507374b822 but expected 9ebf4d79fa3aafcbe8f11b0d9aeb75a9f8141997)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+S.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -7539,3 +7541,6 @@ fatal: confused by unstable object source data for 057cd5a34af4b488ab942c418b878
 To github.com:AutumnIscariot/000GAOS.git
    229dbae..830d6d2  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for 8405e5f87d99a5d69b91f4e60799018e17e777b2
