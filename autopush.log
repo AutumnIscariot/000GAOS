@@ -4037,10 +4037,9 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at bbbfe93f3f1ee5ebe0c7872b1210bd4bf0307332 but expected 053d58ade41fc53adfb612f15b9211e07c9bd9bd)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-s.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
+Watches established.
+./.git/objects/ce/ CREATE tmp_obj_NP603D
+ot staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   autopush.log
