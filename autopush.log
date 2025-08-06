@@ -1258,16 +1258,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-ult
- 1 file changed, 9 insertions(+), 1 deletion(-)
+[main fb80d5e] Auto-update from Vault
+ 1 file changed, 23 insertions(+), 9 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 6524c93848e07b90acb4609238dfe63972595b90 but expected f3ece62d3d6001d5d04d9ddb3ee7dfb2afa628b5)
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 57f35fd84c8131c0658d8c569e2137a023b2afa4 but expected 9549a3196463aa7ec1083b6b5bdeea73d07e8938)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-On branch main
-Your branch is ahead of 'origin/main' by 3 commits.
+of 'origin/main' by 3 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
@@ -1520,3 +1519,17 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/fb/ MODIFY tmp_obj_EYZdID
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main 57f35fd] Auto-update from Vault
+ 1 file changed, 2 insertions(+)
+To github.com:AutumnIscariot/000GAOS.git
+   9549a31..57f35fd  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
