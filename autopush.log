@@ -20778,26 +20778,23 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-sertions(+), 4 deletions(-)
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
-   3dcb62a2..318f70b8  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at b2d8abc1ae13b20097eb988380485ae2703e8a13 but expected 994e93015544ae205f26c59ae573dd2f465f4b0c)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main ba09b996] Auto-update from Vault
- 1 file changed, 13 insertions(+), 10 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   2dd9b10c..ba09b996  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 29c0a1c1] Auto-update from Vault
- 1 file changed, 12 insertions(+), 8 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   006794f3..29c0a1c1  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
+h.log
 [main 396b03c9] Auto-update from Vault
  1 file changed, 5 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
@@ -21824,3 +21821,27 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main b2d8abc1] Auto-update from Vault
+ 1 file changed, 16 insertions(+), 10 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   994e9301..b2d8abc1  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for f687eb723b3b0c0151f937b1deaa44a3a2dc7401
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
