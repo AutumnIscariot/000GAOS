@@ -11032,8 +11032,9 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 66404d420456a3bc7d4f089f7f1637437af546ec but expected 53c290f3478854b2c5c4782de97b8174374d0338)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-en try again. If it still fails, a git process
-may have crashed in this repository earlier:
+Watches established.
+./.git/objects/3d/ MODIFY tmp_obj_YmW1kW
+d in this repository earlier:
 remove the file manually to continue.
 On branch main
 Your branch is ahead of 'origin/main' by 3 commits.
