@@ -13273,30 +13273,30 @@ Watches established.
 ./ MODIFY autopush.log
 [main a3719a02] Auto-update from Vault
  1 file changed, 5 insertions(+), 4 deletions(-)
-0883816a318841a63a44a9)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   f7d9d161..a3719a02  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 7e4c9c2a] Auto-update from Vault
- 1 file changed, 24 insertions(+), 13 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   45873bfb..7e4c9c2a  main -> main
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-[main 25d8029f] Auto-update from Vault
- 1 file changed, 30 insertions(+), 18 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   7e4c9c2a..25d8029f  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main ef7dd97c] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 1076c8e6cf9a2774b0ecfbce23e22df7b7a9e6b2 but expected 25d8029f6278e09980107a4cc2e21c7c21357df3)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+./.git/objects/22/ MODIFY tmp_obj_jCxFRA
+o push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -13666,3 +13666,11 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 327a5376] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+To github.com:AutumnIscariot/000GAOS.git
+   a3719a02..327a5376  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for 22e9ae3465c16b02a572dc2dfe41025de916792c
