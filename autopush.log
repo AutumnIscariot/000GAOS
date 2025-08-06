@@ -27385,17 +27385,14 @@ Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
-nothing to commit, working tree clean
-To github.com:AutumnIscariot/000GAOS.git
-   464ecf3c..52f94399  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+ this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 45a834cc] Auto-update from Vault
@@ -28893,3 +28890,8 @@ Watches established.
 fatal: confused by unstable object source data for a4d78b170a8d074e98a4bc13a3df96172c316d6f
 [main 4bfa6b61] Auto-update from Vault
  1 file changed, 24 insertions(+), 14 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   8917a8ba..4bfa6b61  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
