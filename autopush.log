@@ -4653,9 +4653,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 7004835] Auto-update from Vault
  1 file changed, 6 insertions(+), 4 deletions(-)
-/main': is at a4a73c1f1461402efd14d6241bbdc44214f08c71 but expected f7ba04d2a1a6b7d542756cdcffc0a1f84e736064)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+To github.com:AutumnIscariot/000GAOS.git
+   2ccc0f4..7004835  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+g up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/refs/remotes/origin/ CREATE main.lock
 [main 337c50b] Auto-update from Vault
@@ -4881,3 +4884,8 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
