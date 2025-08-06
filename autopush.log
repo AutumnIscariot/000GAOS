@@ -4672,10 +4672,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-is may take a while!
-Watches established.
-./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+[main 95645f7] Auto-update from Vault
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+e '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
@@ -4913,3 +4912,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main 686e42d] Auto-update from Vault
  1 file changed, 9 insertions(+), 1 deletion(-)
+To github.com:AutumnIscariot/000GAOS.git
+   6101ad8..686e42d  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
