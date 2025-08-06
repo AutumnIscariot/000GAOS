@@ -18416,22 +18416,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main e71ffe5e] Auto-update from Vault
  1 file changed, 9 insertions(+), 9 deletions(-)
-cariot/000GAOS.git
-   598480f9..e7f7e680  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 6140c6ba] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   436ef9b0..6140c6ba  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 305b2e2b] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 305b2e2bd912326e6d33020d849d985fc7177f6d but expected 6140c6baa98356ac32d3f5c1d7931e24d4eacea1)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 62c9cebbaf94d4852577f177482a23ab3d5a7d79 but expected 415e0c0521e1196fa68aa03500f558de57740729)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -18440,6 +18426,20 @@ fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.loc
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
@@ -19215,6 +19215,13 @@ Watches established.
  1 file changed, 8 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    415e0c05..62c9cebb  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+[main 5ac85be2] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   62c9cebb..5ac85be2  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
