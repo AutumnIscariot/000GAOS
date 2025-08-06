@@ -156,11 +156,17 @@ Watches established.
 ./ MODIFY autopush.log
 [main 4e1613a] Auto-update from Vault
  1 file changed, 7 insertions(+), 10 deletions(-)
-IFY autopush.log
-[main 6537224] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   981eeca..6537224  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 6537224292a746beb475ba97daca4202281a5354 but expected 981eeca3406fed35d83c39b802293d024304af14)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+SettingOn branch main
+Your branch is ahead of 'origin/main' by 2 commitsWatches established.
 ./ MODIFY autopush.log
+mmits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
