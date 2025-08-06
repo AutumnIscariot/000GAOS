@@ -9141,17 +9141,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main afd99de1] Auto-update from Vault
  1 file changed, 5 insertions(+), 5 deletions(-)
- still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-Everything up-to-date
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at afd99de1c2a9769d5459ab2407cb33653ea2196c but expected 71ba9de23c107cbb2bfc405e26703bf817ae4d11)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main a6a31741] Auto-update from Vault
- 1 file changed, 21 insertions(+), 8 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   8e9a45ef..a6a31741  main -> main
+ -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -9838,3 +9834,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main c1d4ca2f] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 2 deletions(-)
