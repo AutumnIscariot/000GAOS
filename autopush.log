@@ -2020,3 +2020,5 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 3c86dcc167783418c7e73d1ef38da8097b984898 but expected 07d494c4f4b24d82199c3f0900268c3d9498e7f8)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
