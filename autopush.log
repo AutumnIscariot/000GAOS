@@ -3877,9 +3877,9 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
+[main 07e48ce] Auto-update from Vault
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+ repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
@@ -4187,3 +4187,7 @@ Watches established.
 ./.git/objects/04/ CREATE tmp_obj_uqz2P9
 [main 4dd697c] Auto-update from Vault
  1 file changed, 2 insertions(+)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at e5c7e77915fa2d0e3d54edda8b75bb45ca18bc06 but expected da3d8d0da9a8a514bb288787522a0c92d5ed64db)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
