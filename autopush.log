@@ -7024,8 +7024,9 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 4cce74e33c1e8b723c8f4b1266a77c493cedb2ff but expected 7d6c94560de9d77b357cc4bf089c8dff6d0fef23)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
+Watches established.
+./.git/objects/a1/ CREATE tmp_obj_ScaS36
+itor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
