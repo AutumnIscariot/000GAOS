@@ -901,8 +901,8 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-d to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
-Setting up watches.  Beware: since -r was given, this may take a while!
+fatal: cannot lock ref 'HEAD': is at a787165d30d9d731ca7ea97387aba1f6d9b49244 but expected b2bb29d21d4b009cad2a84cf18fc2daaeb7c8d24
+e!
 Watches established.
 ./ MODIFY autopush.log
 [main c2642d6] Auto-update from Vault
@@ -1014,3 +1014,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main b2bb29d] Auto-update from Vault
  1 file changed, 14 insertions(+), 5 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   d38f61c..b2bb29d  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
