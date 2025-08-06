@@ -12331,14 +12331,13 @@ Watches established.
 ./.git/objects/c6/ MODIFY tmp_obj_MGyn27
 [main bac1b72d] Auto-update from Vault
  1 file changed, 13 insertions(+), 2 deletions(-)
- is at 661d2a5ce70590587b9a4c398b3cff595ac9925d but expected 60cbe07cae8bcdd0ff43fcbccf6f4fb91c36093e)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at e740c1b1a9d1fdd238b375beea3a6ac16fc17569 but expected 27c4846587fa3e0b09d8220244dda61583c04584)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 720ab38d] Auto-update from Vault
- 1 file changed, 9 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+riot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at b8a226208f9eebf3f8c5314bdc49948b5dacd14f but expected 661d2a5ce70590587b9a4c398b3cff595ac9925d)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -12865,3 +12864,17 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
