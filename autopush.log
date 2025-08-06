@@ -26903,8 +26903,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
- seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
+[main 0f0b10cc] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+ake sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
@@ -28454,3 +28455,7 @@ Watches established.
 ./.git/objects/c4/ CREATE tmp_obj_lZvaCj
 [main 8b00b966] Auto-update from Vault
  1 file changed, 2 insertions(+)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at e155950e13e99a1d4c68f79f3d196202df9da2a4 but expected f67d491fb4e78813789c9fb88050c5dd94177738)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
