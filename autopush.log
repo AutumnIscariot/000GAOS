@@ -2252,10 +2252,10 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 149196778c6c30e7c67b21fa5253bc52b8f376be but expected 8c7d867021261eaa2129072d51b9ded8bf88eff2)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
-le changed, 5 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
-   1a404ba..ad0e346  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/fb/ CREATE tmp_obj_uSJGDR
+nce -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main d99d5ff] Auto-update from Vault
@@ -2508,3 +2508,13 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
