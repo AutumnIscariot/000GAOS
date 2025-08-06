@@ -8012,8 +8012,9 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    954ddf6..f442af2  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
+Watches established.
+./.git/objects/f9/ CREATE tmp_obj_aktzjM
+ make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
