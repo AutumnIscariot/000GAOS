@@ -559,20 +559,15 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
- up watches.  Beware: since -r was given, this may take a while!
+[main 17ed0a6] Auto-update from Vault
+ 1 file changed, 20 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 17ed0a668cde4ad2b1ac2ce6745405b5790d6709 but expected 3d9a9867ddf7f4bd629035bfdca2f0f483eb3f29)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-To github.com:AutumnIscariot/000GAOS.git
+com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 8ac4f402060b7e9a269ef5f860c12d8548d78033 but expected 17821676f2e86087a036bd30ab1de6fe1bc16b41)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -635,6 +630,17 @@ Watches established.
  1 file changed, 11 insertions(+), 11 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 3d9a9867ddf7f4bd629035bfdca2f0f483eb3f29 but expected 0b81a8b6529dfc23b68e5228ad1e4565c98321f6)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 17ed0a668cde4ad2b1ac2ce6745405b5790d6709 but expected 3d9a9867ddf7f4bd629035bfdca2f0f483eb3f29)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
