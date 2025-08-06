@@ -1223,15 +1223,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
--> main (cannot lock ref 'refs/heads/main': is at 69ef4f2e03bb85e57887f554b86b7eb5a38bdf7a but expected 36f8e0b4fde55e5f90b5a2543074ed13f7506514)
+[main 8b8acb8] Auto-update from Vault
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fa87ca2e504f1a838d9654f39497cd32e7fdda52 but expected 3ac399f2a55ce5ef63a6f914821d1d9eeab7d656)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 9a24151] Auto-update from Vault
- 1 file changed, 9 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 601d66adc14f457b31f4f1cfb78fa2148b9a2b55 but expected 69ef4f2e03bb85e57887f554b86b7eb5a38bdf7a)
+-> main (cannot lock ref 'refs/heads/main': is at 601d66adc14f457b31f4f1cfb78fa2148b9a2b55 but expected 69ef4f2e03bb85e57887f554b86b7eb5a38bdf7a)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -1478,3 +1478,20 @@ Watches established.
 ./ MODIFY autopush.log
 [main fa87ca2] Auto-update from Vault
  1 file changed, 15 insertions(+), 5 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fa87ca2e504f1a838d9654f39497cd32e7fdda52 but expected 3ac399f2a55ce5ef63a6f914821d1d9eeab7d656)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for 6d3f278df6b196faceb5de7ca9e715e151b96562
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
