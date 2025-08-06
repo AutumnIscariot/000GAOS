@@ -3277,9 +3277,9 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 589d2d03f303a41a8dddcf6e07bcfa8e9ade4fa2 but expected b57de0aa6a8dd8deaf3f4295675d02dd3c17300f)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
+./.git/objects/ba/ CREATE tmp_obj_x4MpQv
+FY autopush.log
 On branch main
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
