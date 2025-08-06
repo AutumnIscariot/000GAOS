@@ -17892,21 +17892,19 @@ Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
-o github.com:AutumnIscariot/000GAOS.git
-   b30e1d45..a6c26da3  main -> main
+To github.com:AutumnIscariot/000GAOS.git
+   6ca1257f..e2a6e2bd  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main f2875671] Auto-update from Vault
- 1 file changed, 7 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   a6c26da3..f2875671  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main e56cb850] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+ub.com:AutumnIscariot/000GAOS.git
    f2875671..e56cb850  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -18688,3 +18686,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 80c0d8a7] Auto-update from Vault
+ 1 file changed, 11 insertions(+), 6 deletions(-)
