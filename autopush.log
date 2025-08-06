@@ -28281,14 +28281,13 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-er git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
-   d0b43463..ba3fd67e  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 393da11ce6be0ffbe1fa7be22f6c22a032cfb5bc but expected cea9abc87b89dffe8277d00feb417cff7b134da3)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+ take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main bfa2682c] Auto-update from Vault
@@ -29660,3 +29659,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main d1682181] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 4 deletions(-)
