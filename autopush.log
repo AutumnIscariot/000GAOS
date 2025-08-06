@@ -25171,9 +25171,9 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-mnIscariot/000GAOS.git
-   e9babfef..11cae0b5  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+[main e47a27cb] Auto-update from Vault
+ 1 file changed, 22 insertions(+), 7 deletions(-)
+ince -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 8f2328ea] Auto-update from Vault
@@ -26652,3 +26652,8 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+   45b51957..2e9dd221  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
