@@ -12363,15 +12363,13 @@ Watches established.
 ./.git/objects/ed/ CREATE tmp_obj_Em97Lx
 [main 9c9cb346] Auto-update from Vault
  1 file changed, 5 insertions(+), 2 deletions(-)
-om:AutumnIscariot/000GAOS.git
-   d3c16bc8..6bc3f6f0  main -> main
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 9ebecee576c2df81d310c44832e6e83294f47bb9 but expected 46ee5c459ba42dd782e4e5a2bd9c4f62ebd473e1)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
+ses
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
@@ -12914,3 +12912,8 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
