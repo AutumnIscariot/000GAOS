@@ -3201,12 +3201,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 8d24044] Auto-update from Vault
  1 file changed, 5 insertions(+), 3 deletions(-)
-ng tree clean
 To github.com:AutumnIscariot/000GAOS.git
-   a1d0e00..86dff50  main -> main
+   26a39b4..8d24044  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+ autopush.log
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -3532,3 +3532,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main c06b144] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 4 deletions(-)
