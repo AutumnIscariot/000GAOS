@@ -7598,8 +7598,9 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    38c54ff..80551f2  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-e file manually to continue.
-To github.com:AutumnIscariot/000GAOS.git
+Watches established.
+./ MODIFY autopush.log
+utumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a97f760d4b1880611b0d510d2b04142b5b606bce but expected 7dcdb24d2150826c526051bfa6c4faafa97c3617)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
