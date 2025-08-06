@@ -3215,13 +3215,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main a09aaa3] Auto-update from Vault
  1 file changed, 11 insertions(+), 5 deletions(-)
- manually to continue.
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
+To github.com:AutumnIscariot/000GAOS.git
+   6efcb22..a09aaa3  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   autopush.log
 
