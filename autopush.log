@@ -3973,8 +3973,9 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    d1eb774..1ec08e0  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-cted d1794f451b395b204cdf80e6a39bce39439e96f6)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Watches established.
+./.git/objects/ce/ CREATE tmp_obj_htvcu1
+o push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
