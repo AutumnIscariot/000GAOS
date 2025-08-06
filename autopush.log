@@ -7443,19 +7443,15 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/be/ CREATE tmp_obj_QHQVUo
- watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 5f4c89f] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
+[main f298971] Auto-update from Vault
+ 1 file changed, 3 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   3ae6c50..5f4c89f  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fc5038cec013a8b1e1520fa141ee5fd70baf72eb but expected 1c5c3d20b7c22cc24b4655f82644e3379c69f1cb)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-[main 033b346] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+./.git/objects/51/ CREATE tmp_obj_5D5d0H
+it
    67ec5db..033b346  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -7669,3 +7665,12 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main b36da0a] Auto-update from Vault
+ 1 file changed, 11 insertions(+), 4 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fc5038cec013a8b1e1520fa141ee5fd70baf72eb but expected 1c5c3d20b7c22cc24b4655f82644e3379c69f1cb)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for 51b91487412db773a1d349cfcdac07ebf72ba78e
