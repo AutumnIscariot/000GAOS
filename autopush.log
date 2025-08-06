@@ -7459,22 +7459,18 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/4c/ CREATE tmp_obj_MOvvDD
-ions(-)
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
 To github.com:AutumnIscariot/000GAOS.git
-   ee5b801..afd7e7a  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5de3f78068b17ade5254ca190c348caccd57a243 but expected f2989712bb5add0c3f27d6564f59516a415254c6)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-[main e36751a] Auto-update from Vault
- 1 file changed, 19 insertions(+), 7 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   afd7e7a..e36751a  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main ceabad8] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+./.git/objects/ac/ CREATE tmp_obj_nAy7lr
+m:AutumnIscariot/000GAOS.git
    e36751a..ceabad8  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -7689,3 +7685,25 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+To github.com:AutumnIscariot/000GAOS.git
+   f298971..5de3f78  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
