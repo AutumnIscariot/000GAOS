@@ -7470,27 +7470,20 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/ac/ CREATE tmp_obj_nAy7lr
-m:AutumnIscariot/000GAOS.git
-   e36751a..ceabad8  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 7c9d855] Auto-update from Vault
- 1 file changed, 10 insertions(+), 7 deletions(-)
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
-   ceabad8..7c9d855  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a9d96c0038604b38b737c705de1097f4c553c79d but expected 5de3f78068b17ade5254ca190c348caccd57a243)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 5e4b009] Auto-update from Vault
- 1 file changed, 11 insertions(+), 4 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   7c9d855..5e4b009  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 7afde5d] Auto-update from Vault
- 1 file changed, 8 insertions(+), 7 deletions(-)
+ile changed, 8 insertions(+), 7 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    5e4b009..7afde5d  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -7707,3 +7700,8 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+   5de3f78..a9d96c0  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
