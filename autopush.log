@@ -4515,12 +4515,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main b1987f7] Auto-update from Vault
  1 file changed, 10 insertions(+), 3 deletions(-)
-hub.com:AutumnIscariot/000GAOS.git
-   bc6670a..d3c2856  main -> main
+To github.com:AutumnIscariot/000GAOS.git
+   8cf507f..b1987f7  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 625ad8a] Auto-update from Vault
+625ad8a] Auto-update from Vault
  1 file changed, 8 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
    d3c2856..625ad8a  main -> main
@@ -4714,3 +4714,5 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/14/ CREATE tmp_obj_hvS2Q7
+[main 768500f] Auto-update from Vault
+ 1 file changed, 2 insertions(+)
