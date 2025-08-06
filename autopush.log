@@ -27532,16 +27532,8 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 99b73623c0806b5d00a2a2d86ccfbd60810c7d78 but expected eff4a8bd267e8dd29330a75df79b3f4b80f4416a)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
-r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-[main 3dcb2027] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   e734390e..3dcb2027  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
+./.git/objects/7f/ MODIFY tmp_obj_0LeA3c
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -27549,8 +27541,14 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
-Everything up-to-date
-Setting up watches.  Beware: since -r was given, this may take a while!
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main dc40bd72] Auto-update from Vault
@@ -29024,3 +29022,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main 71d846b9] Auto-update from Vault
  1 file changed, 8 insertions(+), 3 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   99b73623..71d846b9  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
