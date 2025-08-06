@@ -15781,10 +15781,12 @@ Watches established.
 ./ MODIFY autopush.log
 [main 29af01b9] Auto-update from Vault
  1 file changed, 7 insertions(+), 2 deletions(-)
-tal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
+To github.com:AutumnIscariot/000GAOS.git
+   6a5ea3cb..29af01b9  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
@@ -16300,3 +16302,5 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/41/ CREATE tmp_obj_OZgx5l
+[main 9051510d] Auto-update from Vault
+ 1 file changed, 2 insertions(+)
