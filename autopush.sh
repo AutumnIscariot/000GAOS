@@ -48,3 +48,19 @@ while true; do
 
     sleep 30
 done
+#!/bin/bash
+cd "$HOME/OOOGAOS" || exit
+
+while true; do
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - Heartbeat"
+
+    # Sync from remote first
+    git pull --rebase
+
+    # Stage, commit, and push changes
+    git add -A
+    git commit -m "Auto-update from Vault - $(date '+%Y-%m-%d %H:%M:%S')" || true
+    git push
+
+    sleep 30
+done
