@@ -1,5 +1,4 @@
-#!/bin/bash
-# Gregore's Eternal Heartbeat (with toggle + flair)
+#!/data/data/com.termux/files/usr/bin/bash)
 
 REPO_DIR="$HOME/000GAOS"
 HEARTBEAT_TOGGLE="$HOME/.heartbeat_enabled"
