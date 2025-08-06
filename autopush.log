@@ -22656,8 +22656,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-or opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
+[main 1b54bc91] Auto-update from Vault
+ 1 file changed, 24 insertions(+), 4 deletions(-)
+If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 On branch main
@@ -23786,3 +23787,9 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 142c2efb3e7d8048e854414a531fbd78c7d3399e but expected 10ede9892c7f70bb225b8d4d4b37266125f22bdc)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
