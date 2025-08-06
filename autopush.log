@@ -4829,29 +4829,30 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-es.  Beware: since -r was given, this may take a while!
-Watches established.
-./.git/objects/1e/ CREATE tmp_obj_9WMV4a
-[main 36c9525] Auto-update from Vault
- 1 file changed, 2 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
-   ff1d342..36c9525  main -> main
+Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
 On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
+Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
-nothing to commit, working tree clean
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 7bc813a67a97791ae80b711b2957fdaf3c8e9eb9 but expected 9b4f891e3527123b7d61c06dfc8375837f392bc9)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main 48e9a49] Auto-update from Vault
- 1 file changed, 2 insertions(+)
+file changed, 2 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 60e48d5a763328619b6567bdefc7c1ccd0a2fd4a but expected 5dbf56a748b02388bb2cd720290fd04dc9cb66e9)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
@@ -5089,3 +5090,20 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for 2c083b8ec274ed9965ded5a92c3044a982b6283d
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Everything up-to-date
+Setting up watches.  Beware: since -r was given, this may take a while!
