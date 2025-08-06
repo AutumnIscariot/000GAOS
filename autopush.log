@@ -7287,18 +7287,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 72aeea9] Auto-update from Vault
  1 file changed, 3 insertions(+), 3 deletions(-)
-ed.
-./ MODIFY autopush.log
-[main 1b9d796] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   2d67446..1b9d796  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 7afde5d52c6ed978de64e95fb5409baf4c6aa64e but expected 5e4b009578f743505eee8784c9f5d56d4ede8baf)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main c839e80] Auto-update from Vault
- 1 file changed, 8 insertions(+), 2 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+m:AutumnIscariot/000GAOS.git
    a953c95..c839e80  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -7501,3 +7496,19 @@ Watches established.
 ./ MODIFY autopush.log
 [main 7afde5d] Auto-update from Vault
  1 file changed, 8 insertions(+), 7 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   5e4b009..7afde5d  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for 80c5efc4a43d866549881b0b3de6990f8810d7ba
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
