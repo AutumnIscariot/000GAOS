@@ -10511,20 +10511,18 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-earlier:
-remove the file manually to continue.
-To github.com:AutumnIscariot/000GAOS.git
-   a5667efd..78ec65c4  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
 On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
+Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 
-nothing to commit, working tree clean
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
-   78ec65c4..70e746c1  main -> main
+   15aee3e9..069d63df  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
@@ -10535,6 +10533,7 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+nually to continue.
 [main 29fe7679] Auto-update from Vault
  1 file changed, 15 insertions(+), 5 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
@@ -11243,3 +11242,18 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+[main 069d63df] Auto-update from Vault
+ 1 file changed, 12 insertions(+), 4 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 069d63df15175aa278744724704195bca484b19d but expected 15aee3e9ea402dca3bc82ab6170b17987b068e1e)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/9f/ MODIFY tmp_obj_bPXTrQ
