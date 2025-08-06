@@ -13961,8 +13961,9 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    432fd331..52d26076  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-o continue.
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+Watches established.
+./.git/objects/55/ CREATE tmp_obj_H6lmTy
+es/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
