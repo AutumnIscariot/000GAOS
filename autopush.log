@@ -12623,13 +12623,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main b1a6726f] Auto-update from Vault
  1 file changed, 12 insertions(+), 10 deletions(-)
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 75bca8a66b80e2418095a2821b7516af1c8246b6 but expected b663c9e6b1b57e84d52b194b9452067e178400b9)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at a210b4dc8d7cfbd134dcff5c0abce55ec57698a9 but expected 204e396f884f28cbb1808daa5581b5b2df1450dd)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+6b1b57e84d52b194b9452067e178400b9)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -13153,3 +13153,16 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at a210b4dc8d7cfbd134dcff5c0abce55ec57698a9 but expected 204e396f884f28cbb1808daa5581b5b2df1450dd)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/31/ CREATE tmp_obj_LOLu0i
+fatal: confused by unstable object source data for 5d8019d02f9001d705cd2de348acbad2ec402439
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
