@@ -11237,9 +11237,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-e/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
+[main 9fd34f69] Auto-update from Vault
+ 1 file changed, 17 insertions(+), 2 deletions(-)
+ repository, e.g.
 an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
@@ -11894,3 +11894,8 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+To github.com:AutumnIscariot/000GAOS.git
+   5fbd7d5d..7cb74847  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
