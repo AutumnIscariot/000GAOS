@@ -26634,19 +26634,8 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
    f51d1738..297b0343  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
-cal commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-To github.com:AutumnIscariot/000GAOS.git
-   45b51957..2e9dd221  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
+./.git/objects/eb/ MODIFY tmp_obj_WcpIYg
 fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
 
 Another git process seems to be running in this repository, e.g.
@@ -26654,6 +26643,17 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
    2e9dd221..e47a27cb  main -> main
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -28166,3 +28166,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main 319b54a4] Auto-update from Vault
  1 file changed, 8 insertions(+), 2 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   297b0343..319b54a4  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
