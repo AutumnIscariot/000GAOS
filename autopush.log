@@ -3789,15 +3789,11 @@ Watches established.
 ./ MODIFY autopush.log
 [main 796e1a9] Auto-update from Vault
  1 file changed, 7 insertions(+), 2 deletions(-)
-termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 0d9daa848111b8c75d06cfd778ea65382da1a48c but expected e1f84f26c4cba041a1f05aba37b62d6fa05b4606)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+h is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 
 Changes not staged for commit:
@@ -4116,3 +4112,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 4dc0135] Auto-update from Vault
+ 1 file changed, 8 insertions(+), 4 deletions(-)
