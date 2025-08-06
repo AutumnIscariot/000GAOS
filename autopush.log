@@ -3526,18 +3526,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 140ffee] Auto-update from Vault
  1 file changed, 4 insertions(+), 7 deletions(-)
-ts.
-  (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
 To github.com:AutumnIscariot/000GAOS.git
-   c62c01d..6efcb22  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5d02bf398253ded4eed66b9a756f01cbfb96b5a9 but expected 063975c00567ac93ee34f839032c5d681a7b2946)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main e4c8433] Auto-update from Vault
- 1 file changed, 8 insertions(+), 3 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
+OS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 08664cdeb77897db99ac828cb0b5947f6259a1ae but expected a09aaa3fc0201560a561d3ee8dcf0e35a26ebdf0)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
@@ -3850,3 +3845,6 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5d02bf398253ded4eed66b9a756f01cbfb96b5a9 but expected 063975c00567ac93ee34f839032c5d681a7b2946)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/76/ CREATE tmp_obj_2gTnNc
+fatal: confused by unstable object source data for f1fc5a81db6c440e602a3594d65119957ec8d2f5
