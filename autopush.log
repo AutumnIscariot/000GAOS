@@ -2086,13 +2086,14 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 745983eb565de6b9f5bcf67f5cfae049e2f27506 but expected 082b14d2fc4e21e81b39b962b3b1607b9e6f6101)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main bd11934] Auto-update from Vault
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+in bd11934] Auto-update from Vault
  1 file changed, 9 insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at fef8d6429dd8e6056ed840487fc62eec2c039fad but expected 745983eb565de6b9f5bcf67f5cfae049e2f27506)
@@ -2367,3 +2368,8 @@ Watches established.
 ./ MODIFY autopush.log
 [main c68659e] Auto-update from Vault
  1 file changed, 8 insertions(+), 1 deletion(-)
+To github.com:AutumnIscariot/000GAOS.git
+   6fb4c6b..c68659e  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
