@@ -12152,16 +12152,13 @@ Watches established.
 ./.git/objects/ee/ CREATE tmp_obj_1g1vUe
 [main 8e9f3047] Auto-update from Vault
  1 file changed, 10 insertions(+), 2 deletions(-)
-nIscariot/000GAOS.git
-   b9f77158..3f2d43d5  main -> main
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 0d5108fdfb21fa744d357d8edf632c14482d04ae but expected a281e460a78923c775b111490fcb334e90084b59)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
+terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
 Everything up-to-date
@@ -12751,3 +12748,5 @@ Everything up-to-date
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main 142bf6ee] Auto-update from Vault
+ 1 file changed, 7 insertions(+), 4 deletions(-)
