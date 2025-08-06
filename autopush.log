@@ -21703,18 +21703,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-letions(-)
+[main cb79657c] Auto-update from Vault
+ 1 file changed, 7 insertions(+), 9 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   f70eecac..9564e45d  main -> main
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at dc5bff22a9cec87a4d064b7a5c8b7d82aac1ffa3 but expected 8c5ee4dbfa572d3943712aee84c9788f91856ae5)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
+./.git/objects/fd/ CREATE tmp_obj_Yz5g03
+ in this repository earlier:
 remove the file manually to continue.
 On branch main
 Your branch is ahead of 'origin/main' by 1 commit.
@@ -22786,3 +22783,37 @@ Watches established.
 ./ MODIFY autopush.log
 [main dc5bff22] Auto-update from Vault
  1 file changed, 6 insertions(+)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 8c5ee4dbfa572d3943712aee84c9788f91856ae5 but expected 23f7617bd44159c768c6e6f6d85bac8841b83b28)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for 8d6edd83ebcddf4aa89b200e4e89a73c529ab18a
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at dc5bff22a9cec87a4d064b7a5c8b7d82aac1ffa3 but expected 8c5ee4dbfa572d3943712aee84c9788f91856ae5)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/a6/ CREATE tmp_obj_WGH7Uc
+fatal: confused by unstable object source data for fd5adf25c202092bee743aec89da6365a54d25c1
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
