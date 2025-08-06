@@ -23535,15 +23535,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-tal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
+[main 8c98bdfc] Auto-update from Vault
+ 1 file changed, 20 insertions(+), 9 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at aefa589867fa12db6549cf481dcc91f9179f79a1 but expected 75a3bb9b875e77b8dea30493b36b92e8a7674a13)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 5b14cbf8fedddc3769c7a6aef6bfdd7ddc540e8d but expected bafc304c1e5b33f3576a102f58933895bf793d3d)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+a589867fa12db6549cf481dcc91f9179f79a1 but expected 75a3bb9b875e77b8dea30493b36b92e8a7674a13)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
