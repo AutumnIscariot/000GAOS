@@ -625,18 +625,13 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-ier:
-remove the file manually to continue.
 To github.com:AutumnIscariot/000GAOS.git
-   ab319bc..f2082ba  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a7f6dfcd21c153b74dd6dd7bde3412697c723f5f but expected 803f1b892661b659686d41d0050b5d35f8a3a65f)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 0b81a8b] Auto-update from Vault
- 1 file changed, 16 insertions(+), 5 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   f2082ba..0b81a8b  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+ up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main 3d9a986] Auto-update from Vault
@@ -704,3 +699,11 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/refs/heads/ CREATE main.lock
+[main bb556fd] Auto-update from Vault
+ 1 file changed, 13 insertions(+), 7 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at a7f6dfcd21c153b74dd6dd7bde3412697c723f5f but expected 803f1b892661b659686d41d0050b5d35f8a3a65f)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
