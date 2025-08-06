@@ -5670,10 +5670,9 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-branch main
-Your branch is up to date with 'origin/main'.
-
-Changes not staged for commit:
+[main 0ddfe01] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 3 deletions(-)
+t:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
 	modified:   autopush.log
@@ -5970,3 +5969,6 @@ Watches established.
 ./ MODIFY autopush.log
 [main 67dd109] Auto-update from Vault
  1 file changed, 6 insertions(+)
+To github.com:AutumnIscariot/000GAOS.git
+   aa2db25..67dd109  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
