@@ -712,20 +712,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-ub.com:AutumnIscariot/000GAOS.git
-   a7f6dfc..10defd5  main -> main
+[main 01707ac] Auto-update from Vault
+ 1 file changed, 16 insertions(+), 7 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 01707ac14e92a96fd0a504e9549dc1b51a61b6f4 but expected 62bdc1820638466f54443225854a5550b77acce2)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-On branch main
-Your branch is ahead of 'origin/main' by 2 commits.
-  (use "git push" to publish your local commits)
-
-nothing to commit, working tree clean
-To github.com:AutumnIscariot/000GAOS.git
-   10defd5..1b883b8  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
+s established.
 ./ MODIFY autopush.log
 [main 699c930] Auto-update from Vault
  1 file changed, 15 insertions(+), 9 deletions(-)
@@ -775,6 +770,17 @@ Watches established.
  1 file changed, 9 insertions(+), 1 deletion(-)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 62bdc1820638466f54443225854a5550b77acce2 but expected 3572acc74158cca34d605427fd97ae0ba5c48a16)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 01707ac14e92a96fd0a504e9549dc1b51a61b6f4 but expected 62bdc1820638466f54443225854a5550b77acce2)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
