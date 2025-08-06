@@ -2545,20 +2545,15 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
- publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   autopush.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
+[main 2ca7cc1] Auto-update from Vault
+ 1 file changed, 14 insertions(+), 6 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   50e6ab6..246c6f8  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 2ca7cc1eac57ad8e9e3e9b5b9d164dd136268f2b but expected 047bb04bdcde24c9e1d387e21939683ee3887efe)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 2016951] Auto-update from Vault
+ Auto-update from Vault
  1 file changed, 27 insertions(+), 29 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 935259427c6acfebd95073012a34842e92de9971 but expected 246c6f83d4693372facb95e6066024668c975a94)
@@ -2766,6 +2761,22 @@ Watches established.
  1 file changed, 2 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 047bb04bdcde24c9e1d387e21939683ee3887efe but expected c0c2ee6505f4dc0d7fde0e1da3d82682b8c6ac13)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 2ca7cc1eac57ad8e9e3e9b5b9d164dd136268f2b but expected 047bb04bdcde24c9e1d387e21939683ee3887efe)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
