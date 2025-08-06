@@ -8022,19 +8022,15 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/f9/ CREATE tmp_obj_FvvlXt
-se "git add" and/or "git commit -a")
+[main 3946c28] Auto-update from Vault
+ 1 file changed, 6 insertions(+), 4 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   b9d2b0f..2c8da98  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at cf986f7e106f8ec4d448013aed3f3d765ec617bb but expected 858ea798bf8a8c76fbed15e024150fb9dc1d36d9)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main da72d19] Auto-update from Vault
- 1 file changed, 8 insertions(+), 1 deletion(-)
-To github.com:AutumnIscariot/000GAOS.git
-   2c8da98..da72d19  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
+ autopush.log
 [main efd4cf4] Auto-update from Vault
  1 file changed, 8 insertions(+), 2 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
@@ -8304,3 +8300,19 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./.git/objects/f9/ MODIFY tmp_obj_FvvlXt
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at cf986f7e106f8ec4d448013aed3f3d765ec617bb but expected 858ea798bf8a8c76fbed15e024150fb9dc1d36d9)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
