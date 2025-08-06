@@ -21960,13 +21960,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 3483fc0e] Auto-update from Vault
  1 file changed, 7 insertions(+), 2 deletions(-)
-DIFY autopush.log
-[main 7ebf83b1] Auto-update from Vault
- 1 file changed, 9 insertions(+), 1 deletion(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at e8f005ce1ee0ce3ae254069b66be50191828c1c2 but expected 1c2e29f41d45fc135fd8fb3ee22f4ca16e61e341)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f4ce01609532b0184e1c728b3214065325e949e7 but expected 77832c7d728aaa7de9ca26b4925cedc2a2d329e8)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main fd475033] Auto-update from Vault
@@ -23057,3 +23057,19 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f4ce01609532b0184e1c728b3214065325e949e7 but expected 77832c7d728aaa7de9ca26b4925cedc2a2d329e8)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/6b/ CREATE tmp_obj_5MNmEt
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
