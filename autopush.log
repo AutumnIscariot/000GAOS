@@ -27076,13 +27076,13 @@ Watches established.
 ./ MODIFY autopush.log
 [main 59efc122] Auto-update from Vault
  1 file changed, 6 insertions(+), 3 deletions(-)
-GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at e8fba867bc69261ebc4a177532189991c1f26438 but expected 08390b71de8e78215b38b0bcb2e384493131e4d9)
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f3019a846f59e91261b8e2199ffa04f487784aac but expected 0f244f343ff06f32ef7338de64a75037cf97413d)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/objects/8e/ CREATE tmp_obj_t5yDIy
-[main 3fe331dc] Auto-update from Vault
+./ MODIFY autopush.log
+] Auto-update from Vault
  1 file changed, 2 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at f1ff02f4cef2304e0c1b95f7d88988b8b815c1aa but expected d37eeed872001f93d5ae4db2220f7b81be7daa1d)
@@ -28658,3 +28658,17 @@ error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
