@@ -18524,21 +18524,20 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
-s given, this may take a while!
-Watches established.
-./ MODIFY autopush.log
-[main e27e4020] Auto-update from Vault
- 1 file changed, 9 insertions(+), 1 deletion(-)
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 388b75bd8520da57659c8a8ef4867422cbbac900 but expected 21efed7466ad8a07a796f9aee69ddf4e5e37809c)
+ ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 2d21ff136aeff739a4691cb7e1e81995176a2116 but expected a24afb58722f877853535ea0bde1af080c6063c6)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
-[main 3a6262b1] Auto-update from Vault
- 1 file changed, 9 insertions(+), 4 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at e27e402029d0143d7b325f20cda138c72ba0fabc but expected 388b75bd8520da57659c8a8ef4867422cbbac900)
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+02029d0143d7b325f20cda138c72ba0fabc but expected 388b75bd8520da57659c8a8ef4867422cbbac900)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
@@ -19289,3 +19288,5 @@ To github.com:AutumnIscariot/000GAOS.git
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
+[main c0be9219] Auto-update from Vault
+ 1 file changed, 26 insertions(+), 14 deletions(-)
