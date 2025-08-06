@@ -7765,27 +7765,32 @@ Watches established.
 To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 64918e7937fda217ba5d9dd76611b6147b1d55fc but expected ef5f1e548381943c28548c7193c492e64daca68a)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
-2c262f21c02a1beff5c443250 but expected fc4d3b77b073a6955c27ac2346e70ffa45241a8d)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/refs/heads/ CREATE main.lock
-[main 1b1c562] Auto-update from Vault
- 1 file changed, 9 insertions(+), 2 deletions(-)
+./.git/objects/25/ CREATE tmp_obj_yGtATB
+fatal: Unable to create '/data/data/com.termux/files/home/000GAOS/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
 To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 2682dfc16a81eb97c3226a7a5178544522785912 but expected 931f7d54db687f02c262f21c02a1beff5c443250)
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 25bb3ddd2dc595f6474c9e9b4d6f4f28661bb5bb but expected 64918e7937fda217ba5d9dd76611b6147b1d55fc)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./.git/objects/7c/ CREATE tmp_obj_i7313Y
-[main 5f9ba0c] Auto-update from Vault
- 1 file changed, 2 insertions(+)
-To github.com:AutumnIscariot/000GAOS.git
- ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at d332ef9b1aed54b2a710af1ff6d0d4020d8e50d7 but expected 2682dfc16a81eb97c3226a7a5178544522785912)
-error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
-Setting up watches.  Beware: since -r was given, this may take a while!
-Watches established.
-./.git/objects/a6/ MODIFY tmp_obj_acq4Yd
+./ MODIFY autopush.log
 [main a3e4728] Auto-update from Vault
  1 file changed, 2 insertions(+)
 To github.com:AutumnIscariot/000GAOS.git
@@ -8056,3 +8061,22 @@ To github.com:AutumnIscariot/000GAOS.git
  ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 64918e7937fda217ba5d9dd76611b6147b1d55fc but expected ef5f1e548381943c28548c7193c492e64daca68a)
 error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./.git/objects/a0/ CREATE tmp_obj_MDyTIc
+fatal: confused by unstable object source data for c07accde83efac21bbf3cdc9645336fdc4d9cdce
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   autopush.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+To github.com:AutumnIscariot/000GAOS.git
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 25bb3ddd2dc595f6474c9e9b4d6f4f28661bb5bb but expected 64918e7937fda217ba5d9dd76611b6147b1d55fc)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
