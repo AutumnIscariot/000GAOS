@@ -3580,17 +3580,13 @@ Changes not staged for commit:
 	modified:   autopush.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
- insertions(+), 3 deletions(-)
 To github.com:AutumnIscariot/000GAOS.git
-   4cddf18..b57de0a  main -> main
+ ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 1347d4f54e975aa97755dc00332ffc85de513829 but expected 339a83f66431f077ce3e7629ef5ab39e30cdb875)
+error: failed to push some refs to 'github.com:AutumnIscariot/000GAOS.git'
 Setting up watches.  Beware: since -r was given, this may take a while!
 Watches established.
-./ MODIFY autopush.log
-[main 589d2d0] Auto-update from Vault
- 1 file changed, 7 insertions(+), 4 deletions(-)
-To github.com:AutumnIscariot/000GAOS.git
-   b57de0a..589d2d0  main -> main
-Setting up watches.  Beware: since -r was given, this may take a while!
+./.git/objects/70/ CREATE tmp_obj_gbifD5
+was given, this may take a while!
 Watches established.
 ./ MODIFY autopush.log
 [main f90390d] Auto-update from Vault
@@ -3899,3 +3895,11 @@ an editor opened by 'git commit'. Please make sure all processes
 are terminated then try again. If it still fails, a git process
 may have crashed in this repository earlier:
 remove the file manually to continue.
+[main 1347d4f] Auto-update from Vault
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+To github.com:AutumnIscariot/000GAOS.git
+   339a83f..1347d4f  main -> main
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+./ MODIFY autopush.log
+fatal: confused by unstable object source data for 70b673ff135660e03f30a3f27cc203fc59b42231
