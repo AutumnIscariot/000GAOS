@@ -34,3 +34,17 @@ while true; do
     rotate_log
     sleep 30
 done
+#!/data/data/com.termux/files/usr/bin/bash
+cd /data/data/com.termux/files/home/000GAOS || exit
+
+while true; do
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - Heartbeat" >> autopush.log
+    git add -A
+
+    # Safe sync before pushing
+    git pull --rebase
+    git commit -m "Auto-update from Vault - $(date '+%Y-%m-%d %H:%M:%S')" || true
+    git push
+
+    sleep 30
+done
