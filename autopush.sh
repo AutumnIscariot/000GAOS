@@ -13,11 +13,12 @@ while true; do
     fi
 
     # 🔒 Check for Vault lock
-    if [ -f "$VAULT_LOCK" ]; then
-        echo "$(date '+%Y-%m-%d %H:%M:%S') - 🔒 Vault locked. Waiting..." >> "$LOGFILE"
-        sleep 1200  # wait twenty minute before trying again
-        continue
-    fi
+echo "DEBUG: Checking for Vault lock at $VAULT_LOCK" >> "$LOGFILE"
+if [ -f "$VAULT_LOCK" ]; then
+    echo "$(date '+%Y-%m-%d %H:%M:%S') - 🔒 Vault locked. Waiting..." >> "$LOGFILE"
+    sleep 1200
+    continue
+fi
 
     # 💜 Heartbeat
     echo "$(date '+%Y-%m-%d %H:%M:%S') - 💜 Heartbeat" >> "$LOGFILE"
