@@ -1009,3 +1009,7 @@ Initiating heartbeat...
 2025-08-16 06:03:56 — ♛ KC0 beat — push
 2025-08-16 06:03:56 beat
 2025-08-16 06:04:57 — ♛ KC0 beat — pull
+2025-08-16 06:04:58 — ♛ KC0 beat — pull blocked (diverged) → healing
+2025-08-16 06:04:59 — ♛ KC0 beat — push
+2025-08-16 06:04:59 beat
+2025-08-16 06:05:59 — ♛ KC0 beat — pull
