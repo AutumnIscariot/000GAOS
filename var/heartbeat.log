@@ -2721,3 +2721,7 @@ Initiating heartbeat...
 2025-09-21 14:52:52 beat
 2025-09-21 14:52:55 beat
 2025-09-21 14:52:57 — ♛ KC0 beat — pull
+2025-09-21 14:52:58 — ♛ KC0 beat — pull blocked (diverged) → healing
+2025-09-21 14:52:59 — ♛ KC0 beat — push
+2025-09-21 14:52:59 beat
+2025-09-21 14:53:00 — ♛ KC0 beat — push deferred (offline?)
